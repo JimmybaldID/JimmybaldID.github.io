@@ -1,0 +1,49 @@
+.table {
+    margin-top: 1px;
+	margin-left: 1px;
+}
+
+    .table th, .table td {
+        padding: 5px;
+		text-align: center;
+    }
+
+.table-dark {
+    color: #fff;
+    background-color: #333;
+}
+
+    .table-dark thead {
+        background-color: #222;
+    }
+
+.table-dark>tbody>tr>td, .table-dark>tbody>tr>th, .table-dark>tfoot>tr>td, .table-dark>tfoot>tr>th, .table-dark>thead>tr>td, .table-dark>thead>tr>th {
+	border-color: #444;
+	vertical-align: middle;
+}
+
+.newrow > td > a, .deleterow > a {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+	color: #999;
+}
+
+.deleterow > a {
+	font-size: 16px;
+	margin: 2px 0px;
+}
+
+.newrow > td > a:hover, .newrow > td > a:focus, .deleterow > a:hover, .deleterow > a:focus {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+	color: #fff;
+	border-bottom: 0px;
+	text-decoration: none;
+}
+
+.deleterow > a:hover, .deleterow > a:focus {
+	font-size: 16px;
+	margin: 2px 0px;
+}
