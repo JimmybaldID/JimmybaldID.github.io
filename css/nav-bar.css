@@ -52,3 +52,7 @@ ul.horizontal li a.active {
 .nav-tabs>li>a {
 	color: #999;
 }
+
+.tab-content {
+	width: fit-content;
+}

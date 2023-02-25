@@ -1,6 +1,7 @@
 .table {
     margin-top: 1px;
 	margin-left: 1px;
+	width: fit-content;
 }
 
     .table th, .table td {
@@ -22,28 +23,6 @@
 	vertical-align: middle;
 }
 
-.newrow > td > a, .deleterow > a {
-    display: block;
-    width: 100%;
-    font-size: 20px;
-	color: #999;
-}
-
-.deleterow > a {
-	font-size: 16px;
-	margin: 2px 0px;
-}
-
-.newrow > td > a:hover, .newrow > td > a:focus, .deleterow > a:hover, .deleterow > a:focus {
-    display: block;
-    width: 100%;
-    font-size: 20px;
-	color: #fff;
-	border-bottom: 0px;
-	text-decoration: none;
-}
-
-.deleterow > a:hover, .deleterow > a:focus {
-	font-size: 16px;
-	margin: 2px 0px;
+table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
+	text-align: center;
 }
