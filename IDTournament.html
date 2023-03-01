@@ -21,7 +21,7 @@
 		<script type="text/javascript" src="js/data.js"></script>
 		<script type="text/javascript" src="js/IDTournament.js"></script>
     </head>
-    <body>
+    <body onload="OnLoad()">
         <div class="pageheader">
             <ul class="horizontal">
                 <li>
@@ -34,10 +34,16 @@
             </ul>
             <ul id="tab_nav" class="nav nav-tabs">
 				<li class="active">
-					<a href="#tab_tournament" data-toggle="tab">Tournament</a>
+					<a id="tab_tournament_trigger" href="#tab_tournament" data-toggle="tab" onclick="handleTabChange('tab_tournament_trigger')">Tournament</a>
 				</li>
 				<li>
-					<a href="#tab_highscores" data-toggle="tab">HighScores</a>
+					<a id="tab_highscores_trigger" href="#tab_highscores" data-toggle="tab" onclick="handleTabChange('tab_highscores_trigger')">High Scores</a>
+				</li>
+				<li>
+					<a id="tab_personalbests_trigger" href="#tab_personalbests" data-toggle="tab" onclick="handleTabChange('tab_personalbests_trigger')">Personal Bests</a>
+				</li>
+				<li>
+					<a id="tab_personalbestimprovements_trigger" href="#tab_personalbestimprovements" data-toggle="tab" onclick="handleTabChange('tab_personalbestimprovements_trigger')">Personal Best Improvements</a>
 				</li>
             </ul>
         </div>
@@ -52,6 +58,12 @@
 			</div>
 			<div id="tab_highscores" class="tab-pane">
 				<table id="table_highscores" class="table table-dark table-hover"></table>
+			</div>
+			<div id="tab_personalbests" class="tab-pane">
+				<table id="table_personalbests" class="table table-dark table-hover"></table>
+			</div>
+			<div id="tab_personalbestimprovements" class="tab-pane">
+				<table id="table_personalbestimprovements" class="table table-dark table-hover cell-border"></table>
 			</div>
 		</div>
 	</body>

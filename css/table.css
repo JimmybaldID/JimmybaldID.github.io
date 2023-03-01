@@ -1,14 +1,3 @@
-.table {
-    margin-top: 1px;
-	margin-left: 1px;
-	width: fit-content;
-}
-
-    .table th, .table td {
-        padding: 5px;
-		text-align: center;
-    }
-
 .table-dark {
     color: #fff;
     background-color: #333;
@@ -20,9 +9,8 @@
 
 .table-dark>tbody>tr>td, .table-dark>tbody>tr>th, .table-dark>tfoot>tr>td, .table-dark>tfoot>tr>th, .table-dark>thead>tr>td, .table-dark>thead>tr>th {
 	border-color: #444;
-	vertical-align: middle;
 }
 
-table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
-	text-align: center;
+.grey {
+	color: #999;
 }
