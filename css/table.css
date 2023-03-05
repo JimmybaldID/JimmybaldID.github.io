@@ -14,3 +14,16 @@
 .grey {
 	color: #999;
 }
+
+table.dataTable {	
+	width: fit-content;
+}
+
+.tab-content {
+	width: fit-content;
+}
+
+.dataTables_length>label, .dataTables_filter>label {
+    vertical-align: -webkit-baseline-middle;
+    margin: 0;
+}

@@ -49,13 +49,15 @@ $(document).ready(function () {
 	// Fill table
 	$('#table_tournament').DataTable({
 		data: data[$('#dateselect').val()],
-		pageLength: 25,
+		info: false,
+		pageLength: -1,
+		lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
 		autoWidth: false,
 		columns: [
-			{ "data": 'rank', title: "Rank" },
-			{ "data": 'place', title: "Place" },
-			{ "data": 'name', title: "Name" },
-			{ "data": (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level" },
+			{ data: 'rank', title: "Rank" },
+			{ data: 'place', title: "Place" },
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 		],
 	});
 	// %%%%%%%%%%%%%%%%%%%%%% Tournament %%%%%%%%%%%%%%%%%%%%%%%%
@@ -65,7 +67,7 @@ $(document).ready(function () {
 	var highscores = [];
 	for (key in data) {
 		for (r of data[key]) {
-			r["date"] = key;
+			r.date = key;
 			highscores.push(r);
 		}
 	}
@@ -77,21 +79,27 @@ $(document).ready(function () {
 	
 	// Add a new rank to the array
 	var n = 1;
+	var personalranks = {};
 	highscores.forEach(function (r) {
-		r["index"] = n++;
+		r.index = n++;
+		personalranks[r.id] = personalranks[r.id] ? personalranks[r.id] + 1 : 1;
+		r.personal = personalranks[r.id];
 	});
 
 	// Fill table
 	$('#table_highscores').DataTable({
 		data: highscores,
+		info: false,
 		pageLength: 25,
+		lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
 		autoWidth: false,
-		order: [[2, 'desc']],
+		order: [[3, 'desc']],
 		columns: [
-			{ "data": 'index', title: "Rank" },
-			{ "data": 'name', title: "Name" },
-			{ "data": (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level" },
-			{ "data": 'date', title: "Date" },
+			{ data: 'index', title: "Rank" },
+			{ data: 'personal', title: "#", className: 'grey' },
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
 	// %%%%%%%%%%%%%%%%%%%%%% Highscores %%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,20 +114,23 @@ $(document).ready(function () {
 	// Update the new rank in the array
 	var n = 1;
 	personalbests.forEach(function (r) {
-		r["index"] = n++;
+		r.index = n++;
 	});
 
 	// Fill table
 	$('#table_personalbests').DataTable({
 		data: personalbests,
-		pageLength: 25,
 		autoWidth: false,
+		info: false,
+		pageLength: 25,
+		lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
+		pagingType: 'simple',
 		order: [[2, 'desc']],
 		columns: [
-			{ "data": 'index', title: "Rank" },
-			{ "data": 'name', title: "Name" },
-			{ "data": (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level" },
-			{ "data": 'date', title: "Date" },
+			{ data: 'index', title: "Rank" },
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
 	// %%%%%%%%%%%%%%%%%%%%%% Personal Bests %%%%%%%%%%%%%%%%%%%%%%%%
@@ -131,36 +142,37 @@ $(document).ready(function () {
 			&& grouped[r.id][1] !== undefined) {
 				var previousbest = grouped[r.id].find(x => x.date < r.date);
 				if (previousbest !== undefined) {
-					r["previous"] = previousbest.level;
-					r["previousdate"] = previousbest.date;
-					r["improvement"] = r.level - previousbest.level;
+					r.previous = previousbest.level;
+					r.previousdate = previousbest.date;
+					r.improvement = r.level - previousbest.level;
 				}
 				else {
-					r["previous"] = '';
-					r["previousdate"] = '';
-					r["improvement"] = r.level;
+					r.previous = '';
+					r.previousdate = '';
+					r.improvement = r.level;
 				}					
 		}
 		else {
-			r["previous"] = '';
-			r["previousdate"] = '';
-			r["improvement"] = r.level;
+			r.previous = '';
+			r.previousdate = '';
+			r.improvement = r.level;
 		}
 	});
 	
 	// Fill table
 	$('#table_personalbestimprovements').DataTable({
 		data: personalbests.filter(x => x.date.valueOf() === $('#dateselect').val().valueOf()),
-		pageLength: 25,
 		autoWidth: false,
+		info: false,
+		paging: false,
 		order: [[1, 'desc']],
 		columns: [
-			{ "data": 'name', title: "Name" },
-			{ "data": (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", className: 'dt-body-right dt-head-center' },
-			//{ "data": 'date', title: "Date", className: 'dt-center' },
-			{ "data": (row, a, b, c) => row.previous.toLocaleString(undefined), title: "Prev.", className: 'dt-body-right dt-head-center grey' },
-			{ "data": 'previousdate', title: "Prev. Date", className: 'dt-center grey' },
-			{ "data": (row, a, b, c) => '+' + row.improvement.toLocaleString(undefined), title: "Incr.", className: 'dt-body-right dt-head-center' },
+			{ data: 'name', title: "Name" },
+			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", className: 'dt-body-right dt-head-center' },
+			//{ data: 'date', title: "Date", className: 'dt-center' },
+			{ data: (row, a, b, c) => row.previous.toLocaleString(undefined), title: "Prev.", className: 'dt-body-right dt-head-center grey' },
+			{ data: 'previousdate', title: "Prev. Date", className: 'dt-center grey' },
+			{ data: (row, a, b, c) => '+' + row.improvement.toLocaleString(undefined), title: "Incr.", className: 'dt-body-right dt-head-center' },
 		],
 	});
 	// %%%%%%%%%%%%%%%%%%%%%% Personal Best Improvements %%%%%%%%%%%%%%%%%%%%%%%%
@@ -173,14 +185,16 @@ function handleDateChange(event) {
 	var data = GetProData();
 	$('#table_tournament').DataTable().destroy();
 	$('#table_tournament').DataTable({
-		data: data[value],
-		pageLength: 25,
+		data: data[$('#dateselect').val()],
+		info: false,
+		pageLength: -1,
+		lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
 		autoWidth: false,
 		columns: [
-			{ "data": 'rank', title: "Rank", className: 'dt-body-center' },
-			{ "data": 'place', title: "Place", className: 'dt-body-center' },
-			{ "data": 'name', title: "Name" },
-			{ "data": (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", className: 'dt-right' },
+			{ data: 'rank', title: "Rank" },
+			{ data: 'place', title: "Place" },
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 		],
 	});
 }
