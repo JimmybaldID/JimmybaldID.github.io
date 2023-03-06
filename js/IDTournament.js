@@ -1,5 +1,6 @@
 var defaultactivetab = {
-	"idtournament": "tab_tournament_trigger",
+	"rookietournament": "tab_tournament_trigger",
+	"protournament": "tab_tournament_trigger",
 }
 
 function GetItem(key, obj) {	
@@ -26,15 +27,81 @@ function StoreItem(key, obj) {
 	window.localStorage.setItem(key, JSON.stringify(obj));
 }
 
+function GetScriptAttribute(key) {
+	var script = document.getElementsByTagName('script');
+	return script[script.length - 1].getAttribute(key);
+}
+
+function GetData(tier) {
+	switch (tier) {
+		case 'pro':
+			return GetProData();
+		case 'rookie':
+			return GetRookieData();
+		default:
+			return GetProData();
+	}
+}
+
 function OnLoad() {
+	var tier = GetScriptAttribute('tier');
 	var activeTab = GetItem("activeTab", defaultactivetab);
-	$('#' + activeTab.idtournament).tab('show');
+	$('#' + activeTab[tier + 'tournament']).tab('show');
 }
 
 $(document).ready(function () {
-	var data = GetProData();
+	var tier = GetScriptAttribute('tier');
+	var data = GetData(tier);
 
-	// %%%%%%%%%%%%%%%%%%%%%% Tournament %%%%%%%%%%%%%%%%%%%%%%%%
+	TournamentTable(data);
+	var highscores = HighscoresTable(data);
+	var personalbests = PersonalBestsTable(data, highscores);
+	var grouped = ImprovementsTable(data, highscores, personalbests);
+	NewcomersTable(data, grouped);
+	ParticipationsTable(data, grouped);
+});
+
+function handleDateChange(event) {
+	var element = event.target;
+	var value = element.value;
+	
+	var tier = GetScriptAttribute('tier');
+	var data = GetData(tier);
+	$('#table_tournament').DataTable().destroy();
+	$('#table_tournament').DataTable({
+		data: data[$('#dateselect').val()],
+		info: false,
+		pageLength: -1,
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
+		autoWidth: false,
+		columns: [
+			{ data: 'rank', title: "Rank" },
+			{ data: 'place', title: "Place" },
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+		],
+	});
+}
+
+function handleTabChange(key) {
+	var activeTab = GetItem("activeTab", defaultactivetab);
+	var tier = GetScriptAttribute('tier');
+	activeTab[tier + 'tournament'] = key;
+	StoreItem("activeTab", activeTab);
+}
+
+function PersonalBests(value, index, array) {
+	return array.findIndex(x => x.id === value.id) === index;
+}
+
+function GroupBy(xs, key) {
+	return xs.reduce(function(rv, x) {
+		(rv[x[key]] = rv[x[key]] || []).push(x);
+		return rv;
+	}, {});
+};
+
+function TournamentTable(data) {	
 	// Set dates in select
 	for (let key in data) {
 		let option = document.createElement("option");
@@ -60,9 +127,9 @@ $(document).ready(function () {
 			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 		],
 	});
-	// %%%%%%%%%%%%%%%%%%%%%% Tournament %%%%%%%%%%%%%%%%%%%%%%%%
+}
 
-	// %%%%%%%%%%%%%%%%%%%%%% Highscores %%%%%%%%%%%%%%%%%%%%%%%%
+function HighscoresTable(data) {	
 	// Get all entries in 1 array
 	var highscores = [];
 	for (key in data) {
@@ -102,12 +169,11 @@ $(document).ready(function () {
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
-	// %%%%%%%%%%%%%%%%%%%%%% Highscores %%%%%%%%%%%%%%%%%%%%%%%%
 	
-	// %%%%%%%%%%%%%%%%%%%%%% Personal Bests %%%%%%%%%%%%%%%%%%%%%%%%
-	// Group by id
-	var grouped = GroupBy(highscores, 'id');
-	
+	return highscores;
+}
+
+function PersonalBestsTable(data, highscores) {
 	// Filter highest level for each id
 	var personalbests = highscores.filter(PersonalBests);
 	
@@ -133,9 +199,14 @@ $(document).ready(function () {
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
-	// %%%%%%%%%%%%%%%%%%%%%% Personal Bests %%%%%%%%%%%%%%%%%%%%%%%%
 	
-	// %%%%%%%%%%%%%%%%%%%%%% Personal Best Improvements %%%%%%%%%%%%%%%%%%%%%%%%
+	return personalbests;
+}
+
+function ImprovementsTable(data, highscores, personalbests) {
+	// Group by id
+	var grouped = GroupBy(highscores, 'id');
+	
 	// Add the previous info and improvement
 	personalbests.forEach(function (r) {
 		if (grouped[r.id] !== undefined
@@ -174,9 +245,11 @@ $(document).ready(function () {
 			{ data: (row, a, b, c) => '+' + row.improvement.toLocaleString(undefined), title: "Incr.", className: 'dt-body-right dt-head-center' },
 		],
 	});
-	// %%%%%%%%%%%%%%%%%%%%%% Personal Best Improvements %%%%%%%%%%%%%%%%%%%%%%%%
 	
-	// %%%%%%%%%%%%%%%%%%%%%% Best Pro Newcomers %%%%%%%%%%%%%%%%%%%%%%%%
+	return grouped;
+}
+
+function NewcomersTable(data, grouped) {
 	// Get the first Pro result for each id.
 	var newcomers = [];
 	for (var id in grouped) {
@@ -207,9 +280,9 @@ $(document).ready(function () {
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
-	// %%%%%%%%%%%%%%%%%%%%%% Best Pro Newcomers %%%%%%%%%%%%%%%%%%%%%%%%
-	
-	// %%%%%%%%%%%%%%%%%%%%%% Most Participations %%%%%%%%%%%%%%%%%%%%%%%%
+}
+
+function ParticipationsTable(data, grouped) {
 	// Get the total participations for each id.
 	var participations = [];
 	for (var id in grouped) {
@@ -233,43 +306,5 @@ $(document).ready(function () {
 			{ data: 'date', title: "Since", className: 'dt-center' },
 		],
 	});
-	// %%%%%%%%%%%%%%%%%%%%%% Most Participations %%%%%%%%%%%%%%%%%%%%%%%%
-});
-
-function handleDateChange(event) {
-	var element = event.target;
-	var value = element.value;
-	
-	var data = GetProData();
-	$('#table_tournament').DataTable().destroy();
-	$('#table_tournament').DataTable({
-		data: data[$('#dateselect').val()],
-		info: false,
-		pageLength: -1,
-		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
-		autoWidth: false,
-		columns: [
-			{ data: 'rank', title: "Rank" },
-			{ data: 'place', title: "Place" },
-			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
-		],
-	});
 }
 
-function handleTabChange(key) {
-	var activeTab = GetItem("activeTab", defaultactivetab);
-	activeTab.idtournament = key;
-	StoreItem("activeTab", activeTab);
-}
-
-function PersonalBests(value, index, array) {
-	return array.findIndex(x => x.id === value.id) === index;
-}
-
-function GroupBy(xs, key) {
-	return xs.reduce(function(rv, x) {
-		(rv[x[key]] = rv[x[key]] || []).push(x);
-		return rv;
-	}, {});
-};
