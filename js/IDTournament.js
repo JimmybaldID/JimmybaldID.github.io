@@ -28,8 +28,15 @@ function StoreItem(key, obj) {
 }
 
 function GetScriptAttribute(key) {
-	var script = document.getElementsByTagName('script');
-	return script[script.length - 1].getAttribute(key);
+	var scripts = document.getElementsByTagName('script');
+	for (var script of scripts) {
+		var tier = script.getAttribute(key);
+		if (tier !== null) {
+			return tier;
+		}
+	}
+	
+	return null;
 }
 
 function GetData(tier) {
