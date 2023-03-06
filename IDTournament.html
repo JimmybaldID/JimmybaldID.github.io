@@ -17,7 +17,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
 		<script type="text/javascript" src="js/version.js"></script>
-		<!-- <script type="text/javascript" src="js/templates.js"></script> -->
 		<script type="text/javascript" src="js/data.js"></script>
 		<script type="text/javascript" src="js/IDTournament.js"></script>
     </head>
@@ -45,6 +44,12 @@
 				<li>
 					<a id="tab_personalbestimprovements_trigger" href="#tab_personalbestimprovements" data-toggle="tab" onclick="handleTabChange('tab_personalbestimprovements_trigger')">Personal Best Improvements</a>
 				</li>
+				<li>
+					<a id="tab_newcomers_trigger" href="#tab_newcomers" data-toggle="tab" onclick="handleTabChange('tab_newcomers_trigger')">Pro Newcomers</a>
+				</li>
+				<li>
+					<a id="tab_participations_trigger" href="#tab_participations" data-toggle="tab" onclick="handleTabChange('tab_participations_trigger')">Participations</a>
+				</li>
             </ul>
         </div>
 		<div id="tab_content" class="tab-content">
@@ -64,6 +69,12 @@
 			</div>
 			<div id="tab_personalbestimprovements" class="tab-pane">
 				<table id="table_personalbestimprovements" class="table table-dark table-hover cell-border"></table>
+			</div>
+			<div id="tab_newcomers" class="tab-pane">
+				<table id="table_newcomers" class="table table-dark table-hover cell-border"></table>
+			</div>
+			<div id="tab_participations" class="tab-pane">
+				<table id="table_participations" class="table table-dark table-hover cell-border"></table>
 			</div>
 		</div>
 	</body>
