@@ -51,7 +51,7 @@ $(document).ready(function () {
 		data: data[$('#dateselect').val()],
 		info: false,
 		pageLength: -1,
-		lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		autoWidth: false,
 		columns: [
 			{ data: 'rank', title: "Rank" },
@@ -91,7 +91,7 @@ $(document).ready(function () {
 		data: highscores,
 		info: false,
 		pageLength: 25,
-		lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		autoWidth: false,
 		order: [[3, 'desc']],
 		columns: [
@@ -123,7 +123,7 @@ $(document).ready(function () {
 		autoWidth: false,
 		info: false,
 		pageLength: 25,
-		lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		pagingType: 'simple',
 		order: [[2, 'desc']],
 		columns: [
@@ -169,13 +169,71 @@ $(document).ready(function () {
 		columns: [
 			{ data: 'name', title: "Name" },
 			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", className: 'dt-body-right dt-head-center' },
-			//{ data: 'date', title: "Date", className: 'dt-center' },
 			{ data: (row, a, b, c) => row.previous.toLocaleString(undefined), title: "Prev.", className: 'dt-body-right dt-head-center grey' },
 			{ data: 'previousdate', title: "Prev. Date", className: 'dt-center grey' },
 			{ data: (row, a, b, c) => '+' + row.improvement.toLocaleString(undefined), title: "Incr.", className: 'dt-body-right dt-head-center' },
 		],
 	});
 	// %%%%%%%%%%%%%%%%%%%%%% Personal Best Improvements %%%%%%%%%%%%%%%%%%%%%%%%
+	
+	// %%%%%%%%%%%%%%%%%%%%%% Best Pro Newcomers %%%%%%%%%%%%%%%%%%%%%%%%
+	// Get the first Pro result for each id.
+	var newcomers = [];
+	for (var id in grouped) {
+		var firstscore = grouped[id].reduce((a, b) => a.date < b.date ? a : b);
+		newcomers.push(firstscore);
+	}
+	
+	newcomers.sort((a, b) => b.level - a.level)
+	
+	// Update the new rank in the array
+	var n = 1;
+	newcomers.forEach(function (r) {
+		r.index = n++;
+	});
+		
+	// Fill table
+	$('#table_newcomers').DataTable({
+		data: newcomers,
+		autoWidth: false,
+		info: false,
+		pageLength: 25,
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
+		order: [[2, 'desc']],
+		columns: [
+			{ data: 'index', title: "Rank" },
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: 'date', title: "Date", className: 'dt-center' },
+		],
+	});
+	// %%%%%%%%%%%%%%%%%%%%%% Best Pro Newcomers %%%%%%%%%%%%%%%%%%%%%%%%
+	
+	// %%%%%%%%%%%%%%%%%%%%%% Most Participations %%%%%%%%%%%%%%%%%%%%%%%%
+	// Get the total participations for each id.
+	var participations = [];
+	for (var id in grouped) {
+		var firstscore = grouped[id].reduce((a, b) => a.date < b.date ? a : b);
+		var amount = grouped[id].length;
+		firstscore.participations = amount;
+		participations.push(firstscore);
+	}
+		
+	// Fill table
+	$('#table_participations').DataTable({
+		data: participations,
+		autoWidth: false,
+		info: false,
+		pageLength: 25,
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
+		order: [[1, 'desc'], [0, 'asc']],
+		columns: [
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, a, b, c) => row.participations.toLocaleString(undefined), title: "Amount", className: 'dt-body-right dt-head-center' },
+			{ data: 'date', title: "Since", className: 'dt-center' },
+		],
+	});
+	// %%%%%%%%%%%%%%%%%%%%%% Most Participations %%%%%%%%%%%%%%%%%%%%%%%%
 });
 
 function handleDateChange(event) {
@@ -188,7 +246,7 @@ function handleDateChange(event) {
 		data: data[$('#dateselect').val()],
 		info: false,
 		pageLength: -1,
-		lengthMenu: [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		autoWidth: false,
 		columns: [
 			{ data: 'rank', title: "Rank" },
