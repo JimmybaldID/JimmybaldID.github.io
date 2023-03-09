@@ -62,10 +62,11 @@ $(document).ready(function () {
 
 	TournamentTable(data);
 	var highscores = HighscoresTable(data);
-	var personalbests = PersonalBestsTable(data, highscores);
-	var grouped = ImprovementsTable(data, highscores, personalbests);
-	NewcomersTable(data, grouped);
-	ParticipationsTable(data, grouped);
+	var personalbests = PersonalBestsTable(highscores);
+	var grouped = ImprovementsTable(highscores, personalbests);
+	NewcomersTable(grouped);
+	ParticipationsTable(grouped);
+	BracketWinnersTable(grouped);
 });
 
 function handleDateChange(event) {
@@ -85,7 +86,7 @@ function handleDateChange(event) {
 			{ data: 'rank', title: "Rank" },
 			{ data: 'place', title: "Place" },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 		],
 	});
 }
@@ -131,7 +132,7 @@ function TournamentTable(data) {
 			{ data: 'rank', title: "Rank" },
 			{ data: 'place', title: "Place" },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 		],
 	});
 }
@@ -172,7 +173,7 @@ function HighscoresTable(data) {
 			{ data: 'index', title: "Rank" },
 			{ data: 'personal', title: "#", className: 'grey' },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
@@ -180,7 +181,7 @@ function HighscoresTable(data) {
 	return highscores;
 }
 
-function PersonalBestsTable(data, highscores) {
+function PersonalBestsTable(highscores) {
 	// Filter highest level for each id
 	var personalbests = highscores.filter(PersonalBests);
 	
@@ -202,7 +203,7 @@ function PersonalBestsTable(data, highscores) {
 		columns: [
 			{ data: 'index', title: "Rank" },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
@@ -210,7 +211,7 @@ function PersonalBestsTable(data, highscores) {
 	return personalbests;
 }
 
-function ImprovementsTable(data, highscores, personalbests) {
+function ImprovementsTable(highscores, personalbests) {
 	// Group by id
 	var grouped = GroupBy(highscores, 'id');
 	
@@ -246,17 +247,17 @@ function ImprovementsTable(data, highscores, personalbests) {
 		order: [[1, 'desc']],
 		columns: [
 			{ data: 'name', title: "Name" },
-			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", className: 'dt-body-right dt-head-center' },
-			{ data: (row, a, b, c) => row.previous.toLocaleString(undefined), title: "Prev.", className: 'dt-body-right dt-head-center grey' },
+			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => row.previous.toLocaleString(), title: "Prev.", className: 'dt-body-right dt-head-center grey' },
 			{ data: 'previousdate', title: "Prev. Date", className: 'dt-center grey' },
-			{ data: (row, a, b, c) => '+' + row.improvement.toLocaleString(undefined), title: "Incr.", className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => '+' + row.improvement.toLocaleString(), title: "Incr.", className: 'dt-body-right dt-head-center' },
 		],
 	});
 	
 	return grouped;
 }
 
-function NewcomersTable(data, grouped) {
+function NewcomersTable(grouped) {
 	// Get the first Pro result for each id.
 	var newcomers = [];
 	for (var id in grouped) {
@@ -283,13 +284,13 @@ function NewcomersTable(data, grouped) {
 		columns: [
 			{ data: 'index', title: "Rank" },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(undefined), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
 }
 
-function ParticipationsTable(data, grouped) {
+function ParticipationsTable(grouped) {
 	// Get the total participations for each id.
 	var participations = [];
 	for (var id in grouped) {
@@ -309,8 +310,45 @@ function ParticipationsTable(data, grouped) {
 		order: [[1, 'desc'], [0, 'asc']],
 		columns: [
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.participations.toLocaleString(undefined), title: "Amount", className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => row.participations.toLocaleString(), title: "Amount", className: 'dt-body-right dt-head-center' },
 			{ data: 'date', title: "Since", className: 'dt-center' },
+		],
+	});
+}
+
+function BracketWinnersTable(grouped) {
+	// Get the amount of wins for each id and some other info
+	var winners = [];
+	for (var id in grouped) {
+		var wins = grouped[id].filter((a) => a.place == 1);
+		var amount = wins.length;
+		if (amount > 0) {			
+			var info = {
+				name: wins[0].name,
+				amount: amount,
+				highestlevel: wins.reduce((a, b) => a.level > b.level ? a : b).level,
+				highestdate: wins.reduce((a, b) => a.date > b.date ? a : b).date,
+				lowestlevel: ((amount == 1) ? '' : wins.reduce((a, b) => a.level < b.level ? a : b).level),
+				lowestdate: ((amount == 1) ? '' : wins.reduce((a, b) => a.date < b.date ? a : b).date),
+			}
+			winners.push(info);
+		}
+	}	
+		
+	// Fill table
+	$('#table_bracketwinners').DataTable({
+		data: winners,
+		autoWidth: false,
+		pageLength: 25,
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
+		order: [[1, 'desc'], [2, 'desc']],
+		columns: [
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, a, b, c) => row.amount.toLocaleString(), title: "Amount", className: 'dt-body-right dt-head-center' },
+			{ data: (row, a, b, c) => row.highestlevel.toLocaleString(), title: "Highest", className: 'dt-body-right dt-head-center' },
+			{ data: 'highestdate', title: "Date", className: 'dt-center' },
+			{ data: (row, a, b, c) => row.lowestlevel.toLocaleString(), title: "Lowest", className: 'dt-body-right dt-head-center' },
+			{ data: 'lowestdate', title: "Date", className: 'dt-center' },
 		],
 	});
 }
