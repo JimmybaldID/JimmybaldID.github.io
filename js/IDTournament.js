@@ -40,6 +40,34 @@ function GetScriptAttribute(key) {
 }
 
 function GetData(tier) {
+	var data = GetTierData(tier);
+	
+	var idnames = {};
+	for (var tour in data) {
+		for (var row of data[tour]) {
+			if (idnames[row.id] === undefined) {
+				idnames[row.id] = [];
+			}
+			
+			if (!idnames[row.id].includes(row.name)) {
+				idnames[row.id].push(row.name);
+			}
+		}
+	}
+	
+	for (var tour in data) {
+		for (var row of data[tour]) {
+			var names = idnames[row.id]
+			if (names.length > 1) {
+				row.name = names[0] + ' (' + names.slice(1).join('; ') + ')';
+			}
+		}
+	}
+	
+	return data;
+}
+
+function GetTierData(tier) {	
 	switch (tier) {
 		case 'pro':
 			return GetProData();
