@@ -42,7 +42,10 @@ function GetScriptAttribute(key) {
 function GetData(tier) {
 	var data = GetTierData(tier);
 	
-	var idnames = {};
+	var idnames = {
+		'D75XXNG61KGMNYRJ8S': ['Xorn'],
+	};
+	
 	for (var tour in data) {
 		for (var row of data[tour]) {
 			if (idnames[row.id] === undefined) {
@@ -73,8 +76,10 @@ function GetTierData(tier) {
 			return GetProData();
 		case 'rookie':
 			return GetRookieData();
+		case 'expert':
+			return GetExpertData();
 		default:
-			return GetProData();
+			return GetExpertData();
 	}
 }
 
