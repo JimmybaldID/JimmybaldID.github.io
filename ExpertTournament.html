@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Expert Tournament</title>
+        <meta name="description" content="Expert Tournament info">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/nav-bar.css">
+        <link rel="stylesheet" href="css/table.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="js/version.js"></script>
+		<script type="text/javascript" src="js/expertdata.js"></script>
+		<script type="text/javascript" src="js/IDTournament.js" tier="expert"></script>
+    </head>
+    <body onload="OnLoad()">
+        <div class="pageheader">
+            <ul class="horizontal">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="active" href="IDTournament.html">Expert Tournament</a>
+                </li>
+                <li>
+                    <a href="IDTournament.html">Pro Tournament</a>
+                </li>
+                <li>
+                    <a href="RookieTournament.html">Rookie Tournament</a>
+                </li>
+                <div class="version"></div>
+            </ul>
+            <ul id="tab_nav" class="nav nav-tabs">
+				<li class="active">
+					<a id="tab_tournament_trigger" href="#tab_tournament" data-toggle="tab" onclick="handleTabChange('tab_tournament_trigger')">Tournament</a>
+				</li>
+				<li>
+					<a id="tab_highscores_trigger" href="#tab_highscores" data-toggle="tab" onclick="handleTabChange('tab_highscores_trigger')">High Scores</a>
+				</li>
+				<li>
+					<a id="tab_personalbests_trigger" href="#tab_personalbests" data-toggle="tab" onclick="handleTabChange('tab_personalbests_trigger')">Personal Bests</a>
+				</li>
+				<li>
+					<a id="tab_personalbestimprovements_trigger" href="#tab_personalbestimprovements" data-toggle="tab" onclick="handleTabChange('tab_personalbestimprovements_trigger')">Personal Best Improvements</a>
+				</li>
+				<li>
+					<a id="tab_newcomers_trigger" href="#tab_newcomers" data-toggle="tab" onclick="handleTabChange('tab_newcomers_trigger')">Newcomers</a>
+				</li>
+				<li>
+					<a id="tab_participations_trigger" href="#tab_participations" data-toggle="tab" onclick="handleTabChange('tab_participations_trigger')">Participations</a>
+				</li>
+				<li>
+					<a id="tab_bracketwinners_trigger" href="#tab_bracketwinners" data-toggle="tab" onclick="handleTabChange('tab_bracketwinners_trigger')">Bracket Winners</a>
+				</li>
+            </ul>
+        </div>
+		<div id="tab_content" class="tab-content">
+			<div id="tab_tournament" class="tab-pane active">
+                <label class="big">
+                    Select date:
+                    <select id="dateselect" onchange="handleDateChange(event)">
+                    </select>
+                </label>
+				<table id="table_tournament" class="table table-dark table-hover cell-border"></table>
+			</div>
+			<div id="tab_highscores" class="tab-pane">
+				<table id="table_highscores" class="table table-dark table-hover cell-border"></table>
+			</div>
+			<div id="tab_personalbests" class="tab-pane">
+				<table id="table_personalbests" class="table table-dark table-hover cell-border"></table>
+			</div>
+			<div id="tab_personalbestimprovements" class="tab-pane">
+				<table id="table_personalbestimprovements" class="table table-dark table-hover cell-border"></table>
+			</div>
+			<div id="tab_newcomers" class="tab-pane">
+				<table id="table_newcomers" class="table table-dark table-hover cell-border"></table>
+			</div>
+			<div id="tab_participations" class="tab-pane">
+				<table id="table_participations" class="table table-dark table-hover cell-border"></table>
+			</div>
+			<div id="tab_bracketwinners" class="tab-pane">
+				<table id="table_bracketwinners" class="table table-dark table-hover cell-border"></table>
+			</div>
+		</div>
+	</body>
+</html>
