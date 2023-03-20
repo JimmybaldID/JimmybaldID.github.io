@@ -75284,7 +75284,7 @@ function GetRookieData() {
         "name": "Artheas"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 85,
         "place": "",
         "level": 1061,
@@ -79166,7 +79166,7 @@ function GetRookieData() {
         "name": "Whatelse"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 134,
         "place": "",
         "level": 161,
@@ -82427,7 +82427,7 @@ function GetRookieData() {
         "name": "freeposter"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 10,
         "place": "",
         "level": 4500,
@@ -85544,7 +85544,7 @@ function GetRookieData() {
         "name": "Keny"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 223,
         "place": "",
         "level": 0,
@@ -87137,7 +87137,7 @@ function GetRookieData() {
         "name": "Daox"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 4,
         "place": "",
         "level": 5100,
@@ -88539,7 +88539,7 @@ function GetRookieData() {
         "name": "Jarrah"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 8,
         "place": "",
         "level": 1500,
@@ -89219,7 +89219,7 @@ function GetRookieData() {
         "name": "minnox"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 5,
         "place": "",
         "level": 1800,
@@ -89298,7 +89298,7 @@ function GetRookieData() {
         "name": "The One Mark"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 4,
         "place": "",
         "level": 3000,
@@ -89391,7 +89391,7 @@ function GetRookieData() {
         "name": "Jarrah"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 6,
         "place": "",
         "level": 900,
@@ -89470,7 +89470,7 @@ function GetRookieData() {
         "name": "The One Mark"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 4,
         "place": "",
         "level": 1200,
@@ -89563,7 +89563,7 @@ function GetRookieData() {
         "name": "The One Mark"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 4,
         "place": "",
         "level": 1797,
@@ -89663,7 +89663,7 @@ function GetRookieData() {
         "name": "The One Mark"
       },
       {
-        "id": "IDFe",
+        "id": "5GSR36V9G4BA4BHC0A",
         "rank": 4,
         "place": "",
         "level": 1200,
