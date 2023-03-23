@@ -45448,7 +45448,7 @@ function GetRookieData() {
         "name": "Sumit"
       },
       {
-        "id": "IDpsychosocial",
+        "id": "Z4XJVHZ0Q88VADHTPD",
         "rank": 236,
         "place": "",
         "level": 7,
@@ -45644,7 +45644,7 @@ function GetRookieData() {
         "name": "PrakashR"
       },
       {
-        "id": "IDArchcannon",
+        "id": "PW67BY141QQEX1MHKP",
         "rank": 264,
         "place": "",
         "level": 3,
@@ -46822,7 +46822,7 @@ function GetRookieData() {
         "name": "Pappap"
       },
       {
-        "id": "IDpsychosocial",
+        "id": "Z4XJVHZ0Q88VADHTPD",
         "rank": 145,
         "place": "",
         "level": 206,
@@ -46955,7 +46955,7 @@ function GetRookieData() {
         "name": "owo"
       },
       {
-        "id": "IDBetheymoth",
+        "id": "EPPQE156QZMVX1DQ5T",
         "rank": 164,
         "place": "",
         "level": 163,
@@ -47578,7 +47578,7 @@ function GetRookieData() {
         "name": "elyrik"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 252,
         "place": "",
         "level": 14,
@@ -47683,7 +47683,7 @@ function GetRookieData() {
         "name": "Jonathan voeltz"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 266,
         "place": "",
         "level": 3,
@@ -47718,7 +47718,7 @@ function GetRookieData() {
         "name": "Boogers"
       },
       {
-        "id": "IDArchcannon",
+        "id": "PW67BY141QQEX1MHKP",
         "rank": 273,
         "place": "",
         "level": 2,
@@ -47830,7 +47830,7 @@ function GetRookieData() {
         "name": "Kleptichron"
       },
       {
-        "id": "IDMaciekmon",
+        "id": "91AFX58FHSHAD163WX",
         "rank": 281,
         "place": "",
         "level": 1,
@@ -48427,7 +48427,7 @@ function GetRookieData() {
         "name": "Miningdrone001"
       },
       {
-        "id": "IDhww2891",
+        "id": "T4RB49P5D6D34ZYYDG",
         "rank": 79,
         "place": "",
         "level": 900,
@@ -48546,7 +48546,7 @@ function GetRookieData() {
         "name": "Pseiko"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 98,
         "place": "",
         "level": 570,
@@ -48889,7 +48889,7 @@ function GetRookieData() {
         "name": "ProkaZnik (Василий)"
       },
       {
-        "id": "IDDangerous Bacon",
+        "id": "CQ30D5BDFJE3WSYG4Y",
         "rank": 147,
         "place": "",
         "level": 214,
@@ -48903,7 +48903,7 @@ function GetRookieData() {
         "name": "Jimmy \"Rust\" Old"
       },
       {
-        "id": "IDZiggsi",
+        "id": "Q7MW5V5GBRRFKZY07S",
         "rank": 149,
         "place": "",
         "level": 211,
@@ -49239,7 +49239,7 @@ function GetRookieData() {
         "name": "El_Pentro"
       },
       {
-        "id": "IDMaciekmon",
+        "id": "91AFX58FHSHAD163WX",
         "rank": 197,
         "place": "",
         "level": 113,
@@ -49365,7 +49365,7 @@ function GetRookieData() {
         "name": "cjtripp1025"
       },
       {
-        "id": "IDBetheymoth",
+        "id": "EPPQE156QZMVX1DQ5T",
         "rank": 215,
         "place": "",
         "level": 73,
@@ -49876,7 +49876,7 @@ function GetRookieData() {
         "name": "Falsting Dingdingsworth"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 285,
         "place": "",
         "level": 3,
@@ -49890,7 +49890,7 @@ function GetRookieData() {
         "name": "Kodaav"
       },
       {
-        "id": "IDburyjake",
+        "id": "T4SBAHX70SA85NZ977",
         "rank": 290,
         "place": "",
         "level": 2,
@@ -50900,7 +50900,7 @@ function GetRookieData() {
         "name": "fleshzombie"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 133,
         "place": "",
         "level": 350,
@@ -50949,7 +50949,7 @@ function GetRookieData() {
         "name": "endlessriver"
       },
       {
-        "id": "IDGreipr",
+        "id": "A9JASWV5YCYQ0QZ9QV",
         "rank": 140,
         "place": "",
         "level": 314,
@@ -51068,7 +51068,7 @@ function GetRookieData() {
         "name": "UrsoAlbo"
       },
       {
-        "id": "IDDangerous Bacon",
+        "id": "CQ30D5BDFJE3WSYG4Y",
         "rank": 158,
         "place": "",
         "level": 219,
@@ -51089,7 +51089,7 @@ function GetRookieData() {
         "name": "Sober"
       },
       {
-        "id": "IDhww2891",
+        "id": "T4RB49P5D6D34ZYYDG",
         "rank": 161,
         "place": "",
         "level": 204,
@@ -51138,7 +51138,7 @@ function GetRookieData() {
         "name": "Luftkrieg"
       },
       {
-        "id": "IDBetheymoth",
+        "id": "EPPQE156QZMVX1DQ5T",
         "rank": 165,
         "place": "",
         "level": 180,
@@ -51208,7 +51208,7 @@ function GetRookieData() {
         "name": "owo"
       },
       {
-        "id": "IDFargonz",
+        "id": "VNEGHFW427S0Z7N2JR",
         "rank": 178,
         "place": "",
         "level": 154,
@@ -51383,7 +51383,7 @@ function GetRookieData() {
         "name": "MordiSon"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 203,
         "place": "",
         "level": 96,
@@ -51397,14 +51397,14 @@ function GetRookieData() {
         "name": "Auctorn"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 205,
         "place": "",
         "level": 95,
         "name": "Duth"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 206,
         "place": "",
         "level": 94,
@@ -51467,7 +51467,7 @@ function GetRookieData() {
         "name": "Ess"
       },
       {
-        "id": "IDZiggsi",
+        "id": "Q7MW5V5GBRRFKZY07S",
         "rank": 207,
         "place": "",
         "level": 90,
@@ -51572,7 +51572,7 @@ function GetRookieData() {
         "name": "Wale"
       },
       {
-        "id": "IDArchcannon",
+        "id": "PW67BY141QQEX1MHKP",
         "rank": 224,
         "place": "",
         "level": 75,
@@ -51761,7 +51761,7 @@ function GetRookieData() {
         "name": "Ner"
       },
       {
-        "id": "IDMaciekmon",
+        "id": "91AFX58FHSHAD163WX",
         "rank": 245,
         "place": "",
         "level": 50,
@@ -52848,7 +52848,7 @@ function GetRookieData() {
         "name": "DerMinh"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 112,
         "place": "",
         "level": 600,
@@ -53366,7 +53366,7 @@ function GetRookieData() {
         "name": "mystia"
       },
       {
-        "id": "IDhww2891",
+        "id": "T4RB49P5D6D34ZYYDG",
         "rank": 186,
         "place": "",
         "level": 125,
@@ -53702,7 +53702,7 @@ function GetRookieData() {
         "name": "Decoy"
       },
       {
-        "id": "IDlol",
+        "id": "46MQNEXF0GNBZ5MPRM",
         "rank": 234,
         "place": "",
         "level": 42,
@@ -53821,7 +53821,7 @@ function GetRookieData() {
         "name": "n0rki3"
       },
       {
-        "id": "IDburyjake",
+        "id": "T4SBAHX70SA85NZ977",
         "rank": 251,
         "place": "",
         "level": 15,
@@ -54059,7 +54059,7 @@ function GetRookieData() {
         "name": "Timbroglio"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 285,
         "place": "",
         "level": 3,
@@ -54129,7 +54129,7 @@ function GetRookieData() {
         "name": "Forphoque Saques"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 288,
         "place": "",
         "level": 2,
@@ -55083,7 +55083,7 @@ function GetRookieData() {
         "name": "Schnoops"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 131,
         "place": "",
         "level": 420,
@@ -55293,7 +55293,7 @@ function GetRookieData() {
         "name": "Deus Mors"
       },
       {
-        "id": "IDDangerous Bacon",
+        "id": "CQ30D5BDFJE3WSYG4Y",
         "rank": 161,
         "place": "",
         "level": 200,
@@ -55538,7 +55538,7 @@ function GetRookieData() {
         "name": "Fredrik40"
       },
       {
-        "id": "IDBlue_Fox",
+        "id": "EXP5B4PFRFR37Y8JF1",
         "rank": 196,
         "place": "",
         "level": 86,
@@ -55790,7 +55790,7 @@ function GetRookieData() {
         "name": "TheAfricanViking"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 232,
         "place": "",
         "level": 18,
@@ -55909,7 +55909,7 @@ function GetRookieData() {
         "name": "LW"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 249,
         "place": "",
         "level": 3,
@@ -55923,7 +55923,7 @@ function GetRookieData() {
         "name": "alaintno"
       },
       {
-        "id": "IDrainbowninja",
+        "id": "3D3Q76YV7VN754A3Y4",
         "rank": 249,
         "place": "",
         "level": 3,
@@ -55972,7 +55972,7 @@ function GetRookieData() {
         "name": "Kodaav"
       },
       {
-        "id": "IDFargonz",
+        "id": "VNEGHFW427S0Z7N2JR",
         "rank": 257,
         "place": "",
         "level": 1,
@@ -56028,7 +56028,7 @@ function GetRookieData() {
         "name": "Acty"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 257,
         "place": "",
         "level": 1,
@@ -56492,7 +56492,7 @@ function GetRookieData() {
         "name": "Gaim"
       },
       {
-        "id": "IDCrazzyWarrior",
+        "id": "8NMHB5WNM0CZK0RCCX",
         "rank": 66,
         "place": "",
         "level": 2700,
@@ -56954,7 +56954,7 @@ function GetRookieData() {
         "name": "Zonx"
       },
       {
-        "id": "IDBailey",
+        "id": "VVN8TD5M65V5X3913C",
         "rank": 132,
         "place": "",
         "level": 312,
@@ -57199,7 +57199,7 @@ function GetRookieData() {
         "name": "JaDav"
       },
       {
-        "id": "IDBetheymoth",
+        "id": "EPPQE156QZMVX1DQ5T",
         "rank": 166,
         "place": "",
         "level": 150,
@@ -57360,7 +57360,7 @@ function GetRookieData() {
         "name": "tin blade"
       },
       {
-        "id": "IDFargonz",
+        "id": "VNEGHFW427S0Z7N2JR",
         "rank": 190,
         "place": "",
         "level": 78,
@@ -57640,7 +57640,7 @@ function GetRookieData() {
         "name": "Tin"
       },
       {
-        "id": "IDmax162958",
+        "id": "Y3R37RS44D9EPCEWSP",
         "rank": 230,
         "place": "",
         "level": 10,
@@ -57899,7 +57899,7 @@ function GetRookieData() {
         "name": "RCE"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 256,
         "place": "",
         "level": 1,
@@ -57941,7 +57941,7 @@ function GetRookieData() {
         "name": "krimekat"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 256,
         "place": "",
         "level": 1,
@@ -58944,7 +58944,7 @@ function GetRookieData() {
         "name": "bubbahotep"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 141,
         "place": "",
         "level": 281,
@@ -59609,7 +59609,7 @@ function GetRookieData() {
         "name": "Adonicia"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 234,
         "place": "",
         "level": 24,
@@ -59770,7 +59770,7 @@ function GetRookieData() {
         "name": "N0qE"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 258,
         "place": "",
         "level": 9,
@@ -59840,14 +59840,14 @@ function GetRookieData() {
         "name": "cat"
       },
       {
-        "id": "IDmax162958",
+        "id": "Y3R37RS44D9EPCEWSP",
         "rank": 269,
         "place": "",
         "level": 3,
         "name": "max162958"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 269,
         "place": "",
         "level": 3,
@@ -61172,7 +61172,7 @@ function GetRookieData() {
         "name": "Gizwald"
       },
       {
-        "id": "IDBetheymoth",
+        "id": "EPPQE156QZMVX1DQ5T",
         "rank": 169,
         "place": "",
         "level": 116,
@@ -61809,14 +61809,14 @@ function GetRookieData() {
         "name": "Kirkland"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 255,
         "place": "",
         "level": 3,
         "name": "GGG"
       },
       {
-        "id": "IDGreipr",
+        "id": "A9JASWV5YCYQ0QZ9QV",
         "rank": 255,
         "place": "",
         "level": 3,
@@ -61844,14 +61844,14 @@ function GetRookieData() {
         "name": "Mario17"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 265,
         "place": "",
         "level": 2,
         "name": "ro"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 265,
         "place": "",
         "level": 2,
@@ -61886,7 +61886,7 @@ function GetRookieData() {
         "name": "ciubakka"
       },
       {
-        "id": "IDmax162958",
+        "id": "Y3R37RS44D9EPCEWSP",
         "rank": 265,
         "place": "",
         "level": 2,
@@ -62679,7 +62679,7 @@ function GetRookieData() {
         "name": "Dangins89"
       },
       {
-        "id": "IDCrazzyWarrior",
+        "id": "8NMHB5WNM0CZK0RCCX",
         "rank": 99,
         "place": "",
         "level": 658,
@@ -63099,7 +63099,7 @@ function GetRookieData() {
         "name": "DaveidC1"
       },
       {
-        "id": "IDGreipr",
+        "id": "A9JASWV5YCYQ0QZ9QV",
         "rank": 159,
         "place": "",
         "level": 157,
@@ -63204,14 +63204,14 @@ function GetRookieData() {
         "name": "Radioactive"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 172,
         "place": "",
         "level": 120,
         "name": "ro"
       },
       {
-        "id": "IDZiggsi",
+        "id": "Q7MW5V5GBRRFKZY07S",
         "rank": 175,
         "place": "",
         "level": 120,
@@ -63274,7 +63274,7 @@ function GetRookieData() {
         "name": "Ribs"
       },
       {
-        "id": "IDrainbowninja",
+        "id": "3D3Q76YV7VN754A3Y4",
         "rank": 179,
         "place": "",
         "level": 90,
@@ -63470,7 +63470,7 @@ function GetRookieData() {
         "name": "Luna"
       },
       {
-        "id": "IDmax162958",
+        "id": "Y3R37RS44D9EPCEWSP",
         "rank": 211,
         "place": "",
         "level": 45,
@@ -63785,7 +63785,7 @@ function GetRookieData() {
         "name": "swordo333"
       },
       {
-        "id": "IDBetheymoth",
+        "id": "EPPQE156QZMVX1DQ5T",
         "rank": 257,
         "place": "",
         "level": 2,
@@ -64823,7 +64823,7 @@ function GetRookieData() {
         "name": "kalligon"
       },
       {
-        "id": "IDGreipr",
+        "id": "A9JASWV5YCYQ0QZ9QV",
         "rank": 125,
         "place": "",
         "level": 331,
@@ -65250,7 +65250,7 @@ function GetRookieData() {
         "name": "wrjones18"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 185,
         "place": "",
         "level": 90,
@@ -65579,7 +65579,7 @@ function GetRookieData() {
         "name": "mecharm"
       },
       {
-        "id": "IDMechaSheeva",
+        "id": "52PK94T3YFEZR2BCXP",
         "rank": 233,
         "place": "",
         "level": 28,
@@ -65621,14 +65621,14 @@ function GetRookieData() {
         "name": "newbston"
       },
       {
-        "id": "IDZiggsi",
+        "id": "Q7MW5V5GBRRFKZY07S",
         "rank": 238,
         "place": "",
         "level": 18,
         "name": "Ziggsi"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 240,
         "place": "",
         "level": 18,
@@ -65691,7 +65691,7 @@ function GetRookieData() {
         "name": "Yes Malarkey!"
       },
       {
-        "id": "IDlol",
+        "id": "46MQNEXF0GNBZ5MPRM",
         "rank": 249,
         "place": "",
         "level": 9,
@@ -65726,7 +65726,7 @@ function GetRookieData() {
         "name": "mertal"
       },
       {
-        "id": "IDBetheymoth",
+        "id": "EPPQE156QZMVX1DQ5T",
         "rank": 254,
         "place": "",
         "level": 7,
@@ -65894,7 +65894,7 @@ function GetRookieData() {
         "name": "glassypack2221"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 275,
         "place": "",
         "level": 3,
@@ -65978,7 +65978,7 @@ function GetRookieData() {
         "name": "FAqALL"
       },
       {
-        "id": "IDmax162958",
+        "id": "Y3R37RS44D9EPCEWSP",
         "rank": 283,
         "place": "",
         "level": 1,
@@ -67051,7 +67051,7 @@ function GetRookieData() {
         "name": "Wincho"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 145,
         "place": "",
         "level": 173,
@@ -67072,7 +67072,7 @@ function GetRookieData() {
         "name": "Bolty81"
       },
       {
-        "id": "IDSei Lah",
+        "id": "D2SW4PB9V9BCZ7AT04",
         "rank": 148,
         "place": "",
         "level": 156,
@@ -67121,7 +67121,7 @@ function GetRookieData() {
         "name": "terabullOne"
       },
       {
-        "id": "IDGreipr",
+        "id": "A9JASWV5YCYQ0QZ9QV",
         "rank": 155,
         "place": "",
         "level": 129,
@@ -67443,7 +67443,7 @@ function GetRookieData() {
         "name": "Angells"
       },
       {
-        "id": "IDro",
+        "id": "2CKN91XPHXG8YGBAH2",
         "rank": 201,
         "place": "",
         "level": 44,
@@ -67632,7 +67632,7 @@ function GetRookieData() {
         "name": "Hawk1683"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 227,
         "place": "",
         "level": 6,
@@ -67758,7 +67758,7 @@ function GetRookieData() {
         "name": "mertal"
       },
       {
-        "id": "IDZiggsi",
+        "id": "Q7MW5V5GBRRFKZY07S",
         "rank": 240,
         "place": "",
         "level": 2,
@@ -67772,7 +67772,7 @@ function GetRookieData() {
         "name": "p3423"
       },
       {
-        "id": "IDBailey",
+        "id": "VVN8TD5M65V5X3913C",
         "rank": 240,
         "place": "",
         "level": 2,
@@ -67814,7 +67814,7 @@ function GetRookieData() {
         "name": "olwells"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 240,
         "place": "",
         "level": 1,
@@ -68425,7 +68425,7 @@ function GetRookieData() {
         "name": "fatjedi"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 71,
         "place": "",
         "level": 1814,
@@ -68474,7 +68474,7 @@ function GetRookieData() {
         "name": "Maelam"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 78,
         "place": "",
         "level": 1500,
@@ -68936,7 +68936,7 @@ function GetRookieData() {
         "name": "Lissome"
       },
       {
-        "id": "IDGreipr",
+        "id": "A9JASWV5YCYQ0QZ9QV",
         "rank": 140,
         "place": "",
         "level": 180,
@@ -69356,7 +69356,7 @@ function GetRookieData() {
         "name": "Idk 1"
       },
       {
-        "id": "IDMechaSheeva",
+        "id": "52PK94T3YFEZR2BCXP",
         "rank": 204,
         "place": "",
         "level": 20,
@@ -69461,7 +69461,7 @@ function GetRookieData() {
         "name": "fiSh"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 216,
         "place": "",
         "level": 8,
@@ -69601,7 +69601,7 @@ function GetRookieData() {
         "name": "grafvon"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 235,
         "place": "",
         "level": 2,
@@ -69622,7 +69622,7 @@ function GetRookieData() {
         "name": "AK"
       },
       {
-        "id": "IDBailey",
+        "id": "VVN8TD5M65V5X3913C",
         "rank": 241,
         "place": "",
         "level": 1,
@@ -70149,7 +70149,7 @@ function GetRookieData() {
         "name": "HttpLovecraft"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 58,
         "place": "",
         "level": 3025,
@@ -70233,7 +70233,7 @@ function GetRookieData() {
         "name": "TheStephenGuy"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 71,
         "place": "",
         "level": 2180,
@@ -70576,7 +70576,7 @@ function GetRookieData() {
         "name": "kos"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 120,
         "place": "",
         "level": 342,
@@ -70828,7 +70828,7 @@ function GetRookieData() {
         "name": "Wild"
       },
       {
-        "id": "IDBailey",
+        "id": "VVN8TD5M65V5X3913C",
         "rank": 154,
         "place": "",
         "level": 143,
@@ -70877,7 +70877,7 @@ function GetRookieData() {
         "name": "Azingod"
       },
       {
-        "id": "IDGreipr",
+        "id": "A9JASWV5YCYQ0QZ9QV",
         "rank": 162,
         "place": "",
         "level": 115,
@@ -71038,7 +71038,7 @@ function GetRookieData() {
         "name": "Kuvado"
       },
       {
-        "id": "IDCrazzyWarrior",
+        "id": "8NMHB5WNM0CZK0RCCX",
         "rank": 186,
         "place": "",
         "level": 76,
@@ -71248,7 +71248,7 @@ function GetRookieData() {
         "name": "reaperjudge"
       },
       {
-        "id": "IDrainbowninja",
+        "id": "3D3Q76YV7VN754A3Y4",
         "rank": 216,
         "place": "",
         "level": 19,
@@ -71318,7 +71318,7 @@ function GetRookieData() {
         "name": "abrtsimpson"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 226,
         "place": "",
         "level": 10,
@@ -71423,7 +71423,7 @@ function GetRookieData() {
         "name": "Condemned Rune"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 240,
         "place": "",
         "level": 3,
@@ -72006,7 +72006,7 @@ function GetRookieData() {
         "name": "DariusXIII"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 60,
         "place": "",
         "level": 2400,
@@ -72027,7 +72027,7 @@ function GetRookieData() {
         "name": "Dimopi"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 63,
         "place": "",
         "level": 2100,
@@ -72195,7 +72195,7 @@ function GetRookieData() {
         "name": "Redving"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 87,
         "place": "",
         "level": 729,
@@ -72237,7 +72237,7 @@ function GetRookieData() {
         "name": "Bababitus"
       },
       {
-        "id": "IDFargonz",
+        "id": "VNEGHFW427S0Z7N2JR",
         "rank": 90,
         "place": "",
         "level": 600,
@@ -72489,7 +72489,7 @@ function GetRookieData() {
         "name": "MrDaGrover2"
       },
       {
-        "id": "IDCrazzyWarrior",
+        "id": "8NMHB5WNM0CZK0RCCX",
         "rank": 129,
         "place": "",
         "level": 208,
@@ -72727,7 +72727,7 @@ function GetRookieData() {
         "name": "Shrew"
       },
       {
-        "id": "IDGreipr",
+        "id": "A9JASWV5YCYQ0QZ9QV",
         "rank": 163,
         "place": "",
         "level": 97,
@@ -72888,7 +72888,7 @@ function GetRookieData() {
         "name": "Xenogasm"
       },
       {
-        "id": "IDBailey",
+        "id": "VVN8TD5M65V5X3913C",
         "rank": 181,
         "place": "",
         "level": 75,
@@ -73070,7 +73070,7 @@ function GetRookieData() {
         "name": "Gunpowder1605"
       },
       {
-        "id": "IDDuth",
+        "id": "NT83VB256P9DB9S9D5",
         "rank": 212,
         "place": "",
         "level": 30,
@@ -73322,7 +73322,7 @@ function GetRookieData() {
         "name": "NurglesFist"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 248,
         "place": "",
         "level": 5,
@@ -74066,7 +74066,7 @@ function GetRookieData() {
         "name": "PraiseBrad"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 61,
         "place": "",
         "level": 2215,
@@ -74108,7 +74108,7 @@ function GetRookieData() {
         "name": "iznobiz"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 67,
         "place": "",
         "level": 2062,
@@ -74346,7 +74346,7 @@ function GetRookieData() {
         "name": "Ous"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 101,
         "place": "",
         "level": 483,
@@ -74402,7 +74402,7 @@ function GetRookieData() {
         "name": "DarkNinja89"
       },
       {
-        "id": "IDFargonz",
+        "id": "VNEGHFW427S0Z7N2JR",
         "rank": 109,
         "place": "",
         "level": 325,
@@ -74507,7 +74507,7 @@ function GetRookieData() {
         "name": "Dijinnu"
       },
       {
-        "id": "IDCrazzyWarrior",
+        "id": "8NMHB5WNM0CZK0RCCX",
         "rank": 124,
         "place": "",
         "level": 225,
@@ -74850,7 +74850,7 @@ function GetRookieData() {
         "name": "Burning_Dumpster"
       },
       {
-        "id": "IDBailey",
+        "id": "VVN8TD5M65V5X3913C",
         "rank": 171,
         "place": "",
         "level": 90,
@@ -75179,7 +75179,7 @@ function GetRookieData() {
         "name": "Aleks"
       },
       {
-        "id": "IDMizuki",
+        "id": "1YVG1W0ZHHXEC5FQNY",
         "rank": 220,
         "place": "",
         "level": 30,
@@ -75263,7 +75263,7 @@ function GetRookieData() {
         "name": "Pichu Rose"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 232,
         "place": "",
         "level": 18,
@@ -76238,7 +76238,7 @@ function GetRookieData() {
         "name": "Jondean"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 71,
         "place": "",
         "level": 1500,
@@ -76336,7 +76336,7 @@ function GetRookieData() {
         "name": "Fe"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 86,
         "place": "",
         "level": 900,
@@ -76518,7 +76518,7 @@ function GetRookieData() {
         "name": "Terra"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 112,
         "place": "",
         "level": 475,
@@ -76616,7 +76616,7 @@ function GetRookieData() {
         "name": "Ruissu"
       },
       {
-        "id": "IDFargonz",
+        "id": "VNEGHFW427S0Z7N2JR",
         "rank": 126,
         "place": "",
         "level": 275,
@@ -77148,7 +77148,7 @@ function GetRookieData() {
         "name": "Wafflebros1"
       },
       {
-        "id": "IDGarden Gnome",
+        "id": "7JW9Q9C09YYH3Q6NS0",
         "rank": 202,
         "place": "",
         "level": 31,
@@ -77260,7 +77260,7 @@ function GetRookieData() {
         "name": "huego"
       },
       {
-        "id": "IDGGG",
+        "id": "0GM4W6K2VAT0S5WZA3",
         "rank": 217,
         "place": "",
         "level": 13,
@@ -77442,7 +77442,7 @@ function GetRookieData() {
         "name": "MrDaGrover2"
       },
       {
-        "id": "IDRustyKnight",
+        "id": "DP04ECAN7RZJKYCWJ1",
         "rank": 241,
         "place": "",
         "level": 3,
@@ -77463,7 +77463,7 @@ function GetRookieData() {
         "name": "Piggo"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 246,
         "place": "",
         "level": 2,
@@ -77603,7 +77603,7 @@ function GetRookieData() {
         "name": "Daoxin"
       },
       {
-        "id": "IDlorkatch",
+        "id": "Z8ZVT66G15YBN1FC9Z",
         "rank": 251,
         "place": "",
         "level": 1,
@@ -78249,7 +78249,7 @@ function GetRookieData() {
         "name": "DariusXIII"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 83,
         "place": "",
         "level": 600,
@@ -78347,7 +78347,7 @@ function GetRookieData() {
         "name": "Storm"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 105,
         "place": "",
         "level": 445,
@@ -78403,7 +78403,7 @@ function GetRookieData() {
         "name": "Lewys"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 113,
         "place": "",
         "level": 387,
@@ -78480,7 +78480,7 @@ function GetRookieData() {
         "name": "drewi"
       },
       {
-        "id": "IDlorkatch",
+        "id": "Z8ZVT66G15YBN1FC9Z",
         "rank": 120,
         "place": "",
         "level": 275,
@@ -78760,7 +78760,7 @@ function GetRookieData() {
         "name": "Goose Gang"
       },
       {
-        "id": "IDFargonz",
+        "id": "VNEGHFW427S0Z7N2JR",
         "rank": 164,
         "place": "",
         "level": 80,
@@ -79826,7 +79826,7 @@ function GetRookieData() {
         "name": "Render"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 73,
         "place": "",
         "level": 600,
@@ -79882,7 +79882,7 @@ function GetRookieData() {
         "name": "Gaim"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 86,
         "place": "",
         "level": 550,
@@ -80001,7 +80001,7 @@ function GetRookieData() {
         "name": "Terra"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 104,
         "place": "",
         "level": 352,
@@ -80197,7 +80197,7 @@ function GetRookieData() {
         "name": "DarkNinja89"
       },
       {
-        "id": "IDlorkatch",
+        "id": "Z8ZVT66G15YBN1FC9Z",
         "rank": 132,
         "place": "",
         "level": 168,
@@ -80582,7 +80582,7 @@ function GetRookieData() {
         "name": "joz"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 187,
         "place": "",
         "level": 2,
@@ -81123,7 +81123,7 @@ function GetRookieData() {
         "name": "HttpLovecraft"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 69,
         "place": "",
         "level": 797,
@@ -81284,7 +81284,7 @@ function GetRookieData() {
         "name": "Lolilover"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 92,
         "place": "",
         "level": 360,
@@ -81340,7 +81340,7 @@ function GetRookieData() {
         "name": "Jondean"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 99,
         "place": "",
         "level": 300,
@@ -81480,7 +81480,7 @@ function GetRookieData() {
         "name": "TheAlphaMuffin"
       },
       {
-        "id": "IDlorkatch",
+        "id": "Z8ZVT66G15YBN1FC9Z",
         "rank": 119,
         "place": "",
         "level": 218,
@@ -81949,7 +81949,7 @@ function GetRookieData() {
         "name": "sksksk"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 182,
         "place": "",
         "level": 1,
@@ -82595,7 +82595,7 @@ function GetRookieData() {
         "name": "cronto"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 84,
         "place": "",
         "level": 375,
@@ -82686,7 +82686,7 @@ function GetRookieData() {
         "name": "Ronack"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 97,
         "place": "",
         "level": 289,
@@ -82784,7 +82784,7 @@ function GetRookieData() {
         "name": "MiaW"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 111,
         "place": "",
         "level": 248,
@@ -83232,7 +83232,7 @@ function GetRookieData() {
         "name": "Torge"
       },
       {
-        "id": "IDlorkatch",
+        "id": "Z8ZVT66G15YBN1FC9Z",
         "rank": 175,
         "place": "",
         "level": 29,
@@ -83323,7 +83323,7 @@ function GetRookieData() {
         "name": "BiggusCookiez"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 187,
         "place": "",
         "level": 3,
@@ -83948,7 +83948,7 @@ function GetRookieData() {
         "name": "The King of Chaos"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 79,
         "place": "",
         "level": 289,
@@ -83997,7 +83997,7 @@ function GetRookieData() {
         "name": "Ludivik"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 86,
         "place": "",
         "level": 263,
@@ -84235,7 +84235,7 @@ function GetRookieData() {
         "name": "MiaW"
       },
       {
-        "id": "IDMatteva",
+        "id": "J7A5797SWH0RQ49VP6",
         "rank": 108,
         "place": "",
         "level": 180,
@@ -84893,7 +84893,7 @@ function GetRookieData() {
         "name": "Griphon"
       },
       {
-        "id": "IDlorkatch",
+        "id": "Z8ZVT66G15YBN1FC9Z",
         "rank": 213,
         "place": "",
         "level": 3,
@@ -84963,14 +84963,14 @@ function GetRookieData() {
         "name": "RigoTeaf"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 223,
         "place": "",
         "level": 1,
         "name": "drdnght"
       },
       {
-        "id": "IDMattKoRn",
+        "id": "70J100KAN301NDVQJM",
         "rank": 223,
         "place": "",
         "level": 1,
@@ -84991,7 +84991,7 @@ function GetRookieData() {
         "name": "kasius"
       },
       {
-        "id": "IDMattKoRn",
+        "id": "70J100KAN301NDVQJM",
         "rank": 223,
         "place": "",
         "level": 1,
@@ -85553,7 +85553,7 @@ function GetRookieData() {
         "name": "Deragoloy"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 76,
         "place": "",
         "level": 180,
@@ -85602,7 +85602,7 @@ function GetRookieData() {
         "name": "Lolilover"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 76,
         "place": "",
         "level": 180,
@@ -86001,7 +86001,7 @@ function GetRookieData() {
         "name": "MrDruBeard"
       },
       {
-        "id": "IDlorkatch",
+        "id": "Z8ZVT66G15YBN1FC9Z",
         "rank": 140,
         "place": "",
         "level": 75,
@@ -86484,7 +86484,7 @@ function GetRookieData() {
         "name": "Zarsbh"
       },
       {
-        "id": "IDRustyKnight",
+        "id": "DP04ECAN7RZJKYCWJ1",
         "rank": 211,
         "place": "",
         "level": 2,
@@ -86533,7 +86533,7 @@ function GetRookieData() {
         "name": "bryjnar"
       },
       {
-        "id": "IDio",
+        "id": "97R5VH4W4D9VRYE2FH",
         "rank": 215,
         "place": "",
         "level": 1,
@@ -86554,7 +86554,7 @@ function GetRookieData() {
         "name": "Art"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 215,
         "place": "",
         "level": 1,
@@ -87123,7 +87123,7 @@ function GetRookieData() {
         "name": "Lupus"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 74,
         "place": "",
         "level": 136,
@@ -87340,7 +87340,7 @@ function GetRookieData() {
         "name": "cejs"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 95,
         "place": "",
         "level": 90,
@@ -87424,7 +87424,7 @@ function GetRookieData() {
         "name": "Kyle Smith"
       },
       {
-        "id": "IDlorkatch",
+        "id": "Z8ZVT66G15YBN1FC9Z",
         "rank": 113,
         "place": "",
         "level": 75,
@@ -87459,7 +87459,7 @@ function GetRookieData() {
         "name": "Ice"
       },
       {
-        "id": "IDio",
+        "id": "97R5VH4W4D9VRYE2FH",
         "rank": 122,
         "place": "",
         "level": 65,
@@ -87823,7 +87823,7 @@ function GetRookieData() {
         "name": "TheHangedMask"
       },
       {
-        "id": "IDdrdnght",
+        "id": "S36JAWE9P1HZ5VQKHX",
         "rank": 174,
         "place": "",
         "level": 23,
@@ -87942,7 +87942,7 @@ function GetRookieData() {
         "name": "box"
       },
       {
-        "id": "IDRustyKnight",
+        "id": "DP04ECAN7RZJKYCWJ1",
         "rank": 191,
         "place": "",
         "level": 6,
@@ -88532,7 +88532,7 @@ function GetRookieData() {
         "name": "Porzeczka"
       },
       {
-        "id": "IDio",
+        "id": "97R5VH4W4D9VRYE2FH",
         "rank": 49,
         "place": "",
         "level": 50,
@@ -88728,7 +88728,7 @@ function GetRookieData() {
         "name": "Ксиамои"
       },
       {
-        "id": "IDgig13th",
+        "id": "WSF02CXCB5D2DDZNX6",
         "rank": 49,
         "place": "",
         "level": 50,
@@ -88833,7 +88833,7 @@ function GetRookieData() {
         "name": "chris"
       },
       {
-        "id": "IDSivys",
+        "id": "ERM84YA75J4X3JPX9P",
         "rank": 95,
         "place": "",
         "level": 40,
@@ -89008,7 +89008,7 @@ function GetRookieData() {
         "name": "MEAT"
       },
       {
-        "id": "IDPhoinix",
+        "id": "SAS8TJCFSBJBK8Y2BS",
         "rank": 121,
         "place": "",
         "level": 20,
@@ -89386,7 +89386,7 @@ function GetRookieData() {
         "name": "PlatinumCao"
       },
       {
-        "id": "IDRustyKnight",
+        "id": "DP04ECAN7RZJKYCWJ1",
         "rank": 170,
         "place": "",
         "level": 3,
