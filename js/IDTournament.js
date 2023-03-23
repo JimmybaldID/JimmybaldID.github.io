@@ -119,7 +119,7 @@ function handleDateChange(event) {
 			{ data: 'rank', title: "Rank" },
 			{ data: 'place', title: "Place" },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.level, type, val, meta), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 		],
 	});
 }
@@ -165,7 +165,7 @@ function TournamentTable(data) {
 			{ data: 'rank', title: "Rank" },
 			{ data: 'place', title: "Place" },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.level, type, val, meta), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 		],
 	});
 }
@@ -206,7 +206,7 @@ function HighscoresTable(data) {
 			{ data: 'index', title: "Rank" },
 			{ data: 'personal', title: "#", className: 'grey' },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.level, type, val, meta), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
@@ -236,7 +236,7 @@ function PersonalBestsTable(highscores) {
 		columns: [
 			{ data: 'index', title: "Rank" },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.level, type, val, meta), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
@@ -280,10 +280,10 @@ function ImprovementsTable(highscores, personalbests) {
 		order: [[1, 'desc']],
 		columns: [
 			{ data: 'name', title: "Name" },
-			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", className: 'dt-body-right dt-head-center' },
-			{ data: (row, a, b, c) => row.previous.toLocaleString(), title: "Prev.", className: 'dt-body-right dt-head-center grey' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.level, type, val, meta), title: "Level", className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.previous, type, val, meta), title: "Prev.", className: 'dt-body-right dt-head-center grey' },
 			{ data: 'previousdate', title: "Prev. Date", className: 'dt-center grey' },
-			{ data: (row, a, b, c) => '+' + row.improvement.toLocaleString(), title: "Incr.", className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.improvement, type, val, meta, '+'), title: "Incr.", className: 'dt-body-right dt-head-center' },
 		],
 	});
 	
@@ -317,7 +317,7 @@ function NewcomersTable(grouped) {
 		columns: [
 			{ data: 'index', title: "Rank" },
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.level.toLocaleString(), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.level, type, val, meta), title: "Level", width: 30, className: 'dt-body-right dt-head-center' },
 			{ data: 'date', title: "Date", className: 'dt-center' },
 		],
 	});
@@ -343,7 +343,7 @@ function ParticipationsTable(grouped) {
 		order: [[1, 'desc'], [0, 'asc']],
 		columns: [
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.participations.toLocaleString(), title: "Amount", className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.participations, type, val, meta), title: "Amount", className: 'dt-body-right dt-head-center' },
 			{ data: 'date', title: "Since", className: 'dt-center' },
 		],
 	});
@@ -377,12 +377,23 @@ function BracketWinnersTable(grouped) {
 		order: [[1, 'desc'], [2, 'desc']],
 		columns: [
 			{ data: 'name', title: "Name", width: 170 },
-			{ data: (row, a, b, c) => row.amount.toLocaleString(), title: "Amount", className: 'dt-body-right dt-head-center' },
-			{ data: (row, a, b, c) => row.highestlevel.toLocaleString(), title: "Highest", className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.amount, type, val, meta), title: "Amount", className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.highestlevel, type, val, meta), title: "Highest", className: 'dt-body-right dt-head-center' },
 			{ data: 'highestdate', title: "Date", className: 'dt-center' },
-			{ data: (row, a, b, c) => row.lowestlevel.toLocaleString(), title: "Lowest", className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.lowestlevel, type, val, meta), title: "Lowest", className: 'dt-body-right dt-head-center' },
 			{ data: 'lowestdate', title: "Date", className: 'dt-center' },
 		],
 	});
 }
 
+function FormatTableNumber(number, type, val, meta, prefix = null) {
+	if (type === "display") {
+		if (prefix != null) {
+			return prefix + number.toLocaleString();			
+		}
+
+		return number.toLocaleString();
+	}
+
+	return number;
+}
