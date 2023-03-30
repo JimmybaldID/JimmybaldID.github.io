@@ -1,5 +1,5 @@
 $(document).ready( function () {
-	var version = 'Version 3.1 (2023-03-22)'
+	var version = 'Version 3.1 (2023-03-26)'
 	//console.log(version);
 	$('.version').html(version);
 });
