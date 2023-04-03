@@ -46,6 +46,10 @@ function GetData(tier) {
 		'D75XXNG61KGMNYRJ8S': ['Xorn'],
 	};
 	
+	var wrongid = {
+		
+	};
+	
 	for (var tour in data) {
 		for (var row of data[tour]) {
 			if (idnames[row.id] === undefined) {
@@ -54,6 +58,16 @@ function GetData(tier) {
 			
 			if (!idnames[row.id].includes(row.name)) {
 				idnames[row.id].push(row.name);
+			}
+			
+			if (location.hostname === "localhost" || location.hostname === "127.0.0.1" || location.hostname === "") {
+				if (wrongid[row.name] === undefined) {
+					wrongid[row.name] = [];
+				}
+				
+				if (!wrongid[row.name].find(r => r.id === row.id)) {
+					wrongid[row.name].push(row);
+				}
 			}
 		}
 	}
@@ -64,6 +78,12 @@ function GetData(tier) {
 			if (names.length > 1) {
 				row.name = names[0] + ' (' + names.slice(1).join('; ') + ')';
 			}
+		}
+	}
+	
+	for (var name in wrongid) {
+		if (wrongid[name].length > 1 && wrongid[name].find(r => r.id.startsWith('ID'))) {
+			console.log(wrongid[name]);
 		}
 	}
 	

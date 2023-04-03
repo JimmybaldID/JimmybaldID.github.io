@@ -62457,7 +62457,7 @@ function GetRookieData() {
         "name": "Silver"
       },
       {
-        "id": "IDngvbfcvg",
+        "id": "MZ8V5C84G463HX0F7H",
         "rank": 212,
         "place": "",
         "level": 50,
@@ -66626,7 +66626,7 @@ function GetRookieData() {
         "name": "Kekimus"
       },
       {
-        "id": "IDZ",
+        "id": "FCAHJBMV6EWD2B9PTZ",
         "rank": 236,
         "place": "",
         "level": 9,
@@ -67902,7 +67902,7 @@ function GetRookieData() {
         "name": "Compo"
       },
       {
-        "id": "IDZ",
+        "id": "FCAHJBMV6EWD2B9PTZ",
         "rank": 138,
         "place": "",
         "level": 222,
@@ -67951,7 +67951,7 @@ function GetRookieData() {
         "name": "terabullOne"
       },
       {
-        "id": "IDSei Lah",
+        "id": "D2SW4PB9V9BCZ7AT04",
         "rank": 145,
         "place": "",
         "level": 180,
@@ -70137,7 +70137,7 @@ function GetRookieData() {
         "name": "Doombob"
       },
       {
-        "id": "IDZ",
+        "id": "FCAHJBMV6EWD2B9PTZ",
         "rank": 159,
         "place": "",
         "level": 119,
@@ -74215,7 +74215,7 @@ function GetRookieData() {
         "name": "FatFingerJedi"
       },
       {
-        "id": "IDZ",
+        "id": "FCAHJBMV6EWD2B9PTZ",
         "rank": 212,
         "place": "",
         "level": 25,
@@ -83423,7 +83423,7 @@ function GetRookieData() {
         "name": "Spinos"
       },
       {
-        "id": "IDZ",
+        "id": "FCAHJBMV6EWD2B9PTZ",
         "rank": 165,
         "place": "",
         "level": 51,
@@ -84916,7 +84916,7 @@ function GetRookieData() {
         "name": "drewi"
       },
       {
-        "id": "IDZ",
+        "id": "FCAHJBMV6EWD2B9PTZ",
         "rank": 182,
         "place": "",
         "level": 1,
@@ -91618,7 +91618,7 @@ function GetRookieData() {
         "name": "ccstorm"
       },
       {
-        "id": "IDSeven",
+        "id": "AC0FQB0QZMYR07HD2F",
         "rank": 49,
         "place": "",
         "level": 50,
@@ -91814,7 +91814,7 @@ function GetRookieData() {
         "name": "Caius"
       },
       {
-        "id": "IDchris",
+        "id": "TPDAGEBAPR53KKVWJN",
         "rank": 95,
         "place": "",
         "level": 40,
