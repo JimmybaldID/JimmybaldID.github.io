@@ -1,5 +1,252 @@
 function GetExpertData() {
   return {
+	"2023-04-02": [
+ {
+   "id": "RF7J6MY2Z0398MCH60",
+   "rank": 1,
+   "place": 1,
+   "level": 1720,
+   "name": "The One Mark"
+ },
+ {
+   "id": "CS42KMFC4AQD1G589Q",
+   "rank": 2,
+   "place": 1,
+   "level": 1512,
+   "name": "Peach"
+ },
+ {
+   "id": "2R59BQ1X2EP8Z59FD2",
+   "rank": 3,
+   "place": 2,
+   "level": 1508,
+   "name": "Daox"
+ },
+ {
+   "id": "5TEQ1ZSC6J5XWKCMZE",
+   "rank": 4,
+   "place": 3,
+   "level": 1406,
+   "name": "Jimmybald"
+ },
+ {
+   "id": "GEW7Q0AX53FAGJV2BD",
+   "rank": 5,
+   "place": 1,
+   "level": 1401,
+   "name": "Blaze"
+ },
+ {
+   "id": "MK3G4FE6CHX5EMPG2G",
+   "rank": 6,
+   "place": 4,
+   "level": 1278,
+   "name": "Meep"
+ },
+ {
+   "id": "F2VTKYXXT3ZQAAV12B",
+   "rank": 7,
+   "place": 5,
+   "level": 1258,
+   "name": "Deceet"
+ },
+ {
+   "id": "6VF305PK72D3S4Z10R",
+   "rank": 8,
+   "place": 2,
+   "level": 1226,
+   "name": "Jay"
+ },
+ {
+   "id": "51QFHZVRWWQBC25GYR",
+   "rank": 9,
+   "place": 6,
+   "level": 1222,
+   "name": "ShinClownsU"
+ },
+ {
+   "id": "435M73VGG0AVGCK1EF",
+   "rank": 10,
+   "place": 2,
+   "level": 1118,
+   "name": "Ninja"
+ },
+ {
+   "id": "597139GDQRERQGNFSD",
+   "rank": 11,
+   "place": 3,
+   "level": 966,
+   "name": "KLR2005"
+ },
+ {
+   "id": "MXWDCNZC5ZDAVG067E",
+   "rank": 12,
+   "place": 4,
+   "level": 958,
+   "name": "Recna"
+ },
+ {
+   "id": "MW0FHT9609GKV7YPEF",
+   "rank": 12,
+   "place": 7,
+   "level": 958,
+   "name": "freeposter"
+ },
+ {
+   "id": "DYWFC36G517HMA7TG1",
+   "rank": 14,
+   "place": 8,
+   "level": 945,
+   "name": "Riggenstimple"
+ },
+ {
+   "id": "D75XXNG61KGMNYRJ8S",
+   "rank": 15,
+   "place": 5,
+   "level": 911,
+   "name": "HammerGirl"
+ },
+ {
+   "id": "WAWNKWVDKXB73F8CAG",
+   "rank": 16,
+   "place": 3,
+   "level": 860,
+   "name": "Slayerof666"
+ },
+ {
+   "id": "4BN7X2RKFMSHJ15Q7C",
+   "rank": 16,
+   "place": 3,
+   "level": 860,
+   "name": "Ashkenazi"
+ },
+ {
+   "id": "SJ5GN6W916HDNMAPZ9",
+   "rank": 18,
+   "place": 5,
+   "level": 846,
+   "name": "Marcus"
+ },
+ {
+   "id": "2S6J95A05CRF23ZEBE",
+   "rank": 19,
+   "place": 9,
+   "level": 842,
+   "name": "Racer22"
+ },
+ {
+   "id": "RGBHZ44WPXGCC48M67",
+   "rank": 20,
+   "place": 6,
+   "level": 833,
+   "name": "Whywhywhy"
+ },
+ {
+   "id": "QTHY86NRDM4X31H092",
+   "rank": 21,
+   "place": 10,
+   "level": 826,
+   "name": "yobodebop"
+ },
+ {
+   "id": "FWSSY605D7QSE5YY09",
+   "rank": 22,
+   "place": 6,
+   "level": 813,
+   "name": "Jamez"
+ },
+ {
+   "id": "8B6S82S0AGS9D72G8A",
+   "rank": 23,
+   "place": 7,
+   "level": 758,
+   "name": "malacide"
+ },
+ {
+   "id": "R3VD2ZF5BN9794YA2D",
+   "rank": 24,
+   "place": 7,
+   "level": 706,
+   "name": "SodTiwaz"
+ },
+ {
+   "id": "PXHWSMZ8Q6VQXZQS25",
+   "rank": 25,
+   "place": 8,
+   "level": 703,
+   "name": "Souojor"
+ },
+ {
+   "id": "19ZDDTVN5ZCH62XJGD",
+   "rank": 26,
+   "place": 9,
+   "level": 688,
+   "name": "Merritt"
+ },
+ {
+   "id": "4D7B4REST4PD7A2NJD",
+   "rank": 27,
+   "place": 8,
+   "level": 669,
+   "name": "Jimmy \"Rust\" Old"
+ },
+ {
+   "id": "YG5H2KWFZ2EFBPRRB4",
+   "rank": 28,
+   "place": 9,
+   "level": 644,
+   "name": "Akerus"
+ },
+ {
+   "id": "Y8NDYRKED4D9408XZP",
+   "rank": 29,
+   "place": 10,
+   "level": 623,
+   "name": "ForFun"
+ },
+ {
+   "id": "PACG33BGRJ4KNRAKQQ",
+   "rank": 30,
+   "place": 11,
+   "level": 618,
+   "name": "kell74"
+ },
+ {
+   "id": "EH8VZKK91GF1SG4NH8",
+   "rank": 31,
+   "place": 12,
+   "level": 592,
+   "name": "Olaf de Viesel"
+ },
+ {
+   "id": "E6WR46H97W2E2AT9H2",
+   "rank": 32,
+   "place": 13,
+   "level": 567,
+   "name": "firdude"
+ },
+ {
+   "id": "KTJJSTWQ4CMV7T66AC",
+   "rank": 33,
+   "place": 14,
+   "level": 523,
+   "name": "DariusXIII"
+ },
+ {
+   "id": "4BV2BTHDTZENZ3KGPG",
+   "rank": 34,
+   "place": 10,
+   "level": 517,
+   "name": "Doomslayer"
+ },
+ {
+   "id": "RJJMFQMM64EX5FWBWN",
+   "rank": 35,
+   "place": 11,
+   "level": 476,
+   "name": "Terra"
+ }
+],
     "2023-03-29": [
       {
         "id": "2R59BQ1X2EP8Z59FD2",
