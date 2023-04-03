@@ -46819,7 +46819,7 @@ function GetRookieData() {
         "name": "Beardsley"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 5,
         "place": "",
         "level": 7881,
@@ -48837,7 +48837,7 @@ function GetRookieData() {
         "name": "HermesT"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 6,
         "place": "",
         "level": 8899,
@@ -50890,7 +50890,7 @@ function GetRookieData() {
         "name": "Saudade"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 6,
         "place": "",
         "level": 9719,
@@ -53146,7 +53146,7 @@ function GetRookieData() {
         "name": "Alpha Muffin"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 27,
         "place": "",
         "level": 8100,
@@ -57420,7 +57420,7 @@ function GetRookieData() {
         "name": "Artheas"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 38,
         "place": "",
         "level": 6000,
@@ -59564,7 +59564,7 @@ function GetRookieData() {
         "name": "Ceithern"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 78,
         "place": "",
         "level": 2179,
@@ -70830,7 +70830,7 @@ function GetRookieData() {
         "name": "Jent79"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 255,
         "place": "",
         "level": 1,
@@ -71770,7 +71770,7 @@ function GetRookieData() {
         "name": "[Blockhead]"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 122,
         "place": "",
         "level": 252,
@@ -72934,7 +72934,7 @@ function GetRookieData() {
         "name": "deadmagic"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 29,
         "place": "",
         "level": 5050,
@@ -79191,7 +79191,7 @@ function GetRookieData() {
         "name": "Dimopi"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 66,
         "place": "",
         "level": 1800,
@@ -80838,7 +80838,7 @@ function GetRookieData() {
         "name": "Souojor"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 34,
         "place": "",
         "level": 4206,
@@ -82562,7 +82562,7 @@ function GetRookieData() {
         "name": "Akuma no Tsubasa"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 43,
         "place": "",
         "level": 2664,
@@ -84076,7 +84076,7 @@ function GetRookieData() {
         "name": "Saruman"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 64,
         "place": "",
         "level": 905,
@@ -89733,7 +89733,7 @@ function GetRookieData() {
         "name": "freeposter"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 19,
         "place": "",
         "level": 900,
@@ -91296,7 +91296,7 @@ function GetRookieData() {
         "name": "KabaloK"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 21,
         "place": "",
         "level": 300,
@@ -92649,7 +92649,7 @@ function GetRookieData() {
         "name": "Blaze"
       },
       {
-        "id": "IDEvil551991",
+        "id": "TZDK73ZTYZNZBKDA0B",
         "rank": 17,
         "place": "",
         "level": 200,
