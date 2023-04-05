@@ -103,6 +103,28 @@ function GetTierData(tier) {
 	}
 }
 
+function getScreenShot(){
+	var tier = GetScriptAttribute('tier');
+	var activeTab = GetItem("activeTab", defaultactivetab);
+	var table = activeTab[tier + 'tournament'].split('_')[1]
+	
+    let src = document.getElementById('table_' + table);
+    html2canvas(src).then(function(canvas) {
+      canvas.toBlob(function(blob) {
+        navigator.clipboard
+          .write([
+            new ClipboardItem(
+              Object.defineProperty({}, blob.type, {
+                value: blob,
+                enumerable: true
+              })
+            )
+          ])
+          .then(function() {});
+      });
+    });
+  }
+
 function OnLoad() {
 	var tier = GetScriptAttribute('tier');
 	var activeTab = GetItem("activeTab", defaultactivetab);
