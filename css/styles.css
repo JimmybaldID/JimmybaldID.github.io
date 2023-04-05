@@ -24,6 +24,13 @@ option {
     color: #fff;
 }
 
+input[type=button] {
+    background-color: #333;
+    color: #fff;
+	border-radius: 1px;
+	margin: 2px;
+}
+
 .version {
 	float: right;
 	padding: 14px 16px;
