@@ -16,6 +16,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 		<script type="text/javascript" src="js/version.js"></script>
 		<script type="text/javascript" src="js/expertdata.js"></script>
 		<script type="text/javascript" src="js/IDTournament.js" tier="expert"></script>
@@ -62,6 +63,8 @@
             </ul>
         </div>
 		<div id="tab_content" class="tab-content">
+			<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
+
 			<div id="tab_tournament" class="tab-pane active">
                 <label class="big">
                     Select date:
