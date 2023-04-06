@@ -9,12 +9,18 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/nav-bar.css">
         <link rel="stylesheet" href="css/table.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 		<script type="text/javascript" src="js/version.js"></script>
+		<script type="text/javascript" src="js/rookiedata.js"></script>
+		<script type="text/javascript" src="js/data.js"></script>
+		<script type="text/javascript" src="js/expertdata.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
     </head>
     <body>
@@ -34,6 +40,10 @@
                 </li>
 				<div class="version"></div>
 			</ul>
+		</div>
+		<div id="tab_content" class="tab-content">
+			<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
+			<table id="table_tournament" class="table table-dark table-hover cell-border"></table>
 		</div>
     </body>
 </html>
