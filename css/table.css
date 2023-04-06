@@ -1,6 +1,7 @@
 .table-dark {
     color: #fff;
     background-color: #333;
+	margin:10px;
 }
 
     .table-dark thead {
@@ -27,3 +28,9 @@ table.dataTable {
     vertical-align: -webkit-baseline-middle;
     margin: 0;
 }
+
+.dataTables_wrapper {
+	margin:10px;
+}
+	
+	
