@@ -24360,14 +24360,14 @@ function GetProData() {
         "name": "Flo"
       },
       {
-        "id": "TODODDDDDDDDDDDDDD",
+        "id": "IDRumor",
         "rank": 37,
         "place": "",
         "level": 353,
         "name": "Rumor"
       },
       {
-        "id": "TODOCCCCCCCCCCCCCC",
+        "id": "IDRussianMan",
         "rank": 38,
         "place": "",
         "level": 69,
@@ -24381,7 +24381,7 @@ function GetProData() {
         "name": "raxbit"
       },
       {
-        "id": "TODOEEEEEEEEEEEEEE",
+        "id": "IDgunner",
         "rank": 40,
         "place": "",
         "level": 1,
@@ -24565,21 +24565,21 @@ function GetProData() {
         "name": "PraiseBrad"
       },
       {
-        "id": "TODOAAAAAAAAAAAAAA",
+        "id": "IDKwiKiii",
         "rank": 26,
         "place": "",
         "level": 1350,
         "name": "KwiKiii"
       },
       {
-        "id": "TODOBBBBBBBBBBBBBB",
+        "id": "IDSigh",
         "rank": 27,
         "place": "",
         "level": 133,
         "name": "Sigh"
       },
       {
-        "id": "TODOCCCCCCCCCCCCCC",
+        "id": "IDRussianMan",
         "rank": 28,
         "place": "",
         "level": 10,

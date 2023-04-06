@@ -110,20 +110,20 @@ function getScreenShot(){
 	
     let src = document.getElementById('table_' + table);
     html2canvas(src).then(function(canvas) {
-      canvas.toBlob(function(blob) {
-        navigator.clipboard
-          .write([
-            new ClipboardItem(
-              Object.defineProperty({}, blob.type, {
-                value: blob,
-                enumerable: true
-              })
-            )
-          ])
-          .then(function() {});
-      });
+	  canvas.toBlob(function(blob) {
+		navigator.clipboard
+		  .write([
+			new ClipboardItem(
+			  Object.defineProperty({}, blob.type, {
+				value: blob,
+				enumerable: true
+			  })
+			)
+		  ])
+		  .then(function() {});
+	  });
     });
-  }
+}
 
 function OnLoad() {
 	var tier = GetScriptAttribute('tier');
@@ -157,6 +157,7 @@ function handleDateChange(event) {
 		pageLength: -1,
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		autoWidth: false,
+		deferRender: true,
 		columns: [
 			{ data: 'rank', title: "Rank" },
 			{ data: 'place', title: "Place" },
@@ -203,6 +204,7 @@ function TournamentTable(data) {
 		pageLength: -1,
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		autoWidth: false,
+		deferRender: true,
 		columns: [
 			{ data: 'rank', title: "Rank" },
 			{ data: 'place', title: "Place" },
@@ -212,7 +214,7 @@ function TournamentTable(data) {
 	});
 }
 
-function HighscoresTable(data) {	
+function HighscoresTable(data) {
 	// Get all entries in 1 array
 	var highscores = [];
 	for (key in data) {
@@ -244,6 +246,7 @@ function HighscoresTable(data) {
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		autoWidth: false,
 		order: [[3, 'desc']],
+		deferRender: true,
 		columns: [
 			{ data: 'index', title: "Rank" },
 			{ data: 'personal', title: "#", className: 'grey' },
@@ -275,6 +278,7 @@ function PersonalBestsTable(highscores) {
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		pagingType: 'simple',
 		order: [[2, 'desc']],
+		deferRender: true,
 		columns: [
 			{ data: 'index', title: "Rank" },
 			{ data: 'name', title: "Name", width: 170 },
@@ -320,6 +324,7 @@ function ImprovementsTable(highscores, personalbests) {
 		info: false,
 		paging: false,
 		order: [[1, 'desc']],
+		deferRender: true,
 		columns: [
 			{ data: 'name', title: "Name" },
 			{ data: (row, type, val, meta) => FormatTableNumber(row.level, type, val, meta), title: "Level", className: 'dt-body-right dt-head-center' },
@@ -356,6 +361,7 @@ function NewcomersTable(grouped) {
 		pageLength: 25,
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		order: [[2, 'desc']],
+		deferRender: true,
 		columns: [
 			{ data: 'index', title: "Rank" },
 			{ data: 'name', title: "Name", width: 170 },
@@ -383,6 +389,7 @@ function ParticipationsTable(grouped) {
 		pageLength: 25,
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		order: [[1, 'desc'], [0, 'asc']],
+		deferRender: true,
 		columns: [
 			{ data: 'name', title: "Name", width: 170 },
 			{ data: (row, type, val, meta) => FormatTableNumber(row.participations, type, val, meta), title: "Amount", className: 'dt-body-right dt-head-center' },
@@ -417,6 +424,7 @@ function BracketWinnersTable(grouped) {
 		pageLength: 25,
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
 		order: [[1, 'desc'], [2, 'desc']],
+		deferRender: true,
 		columns: [
 			{ data: 'name', title: "Name", width: 170 },
 			{ data: (row, type, val, meta) => FormatTableNumber(row.amount, type, val, meta), title: "Amount", className: 'dt-body-right dt-head-center' },

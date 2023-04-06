@@ -49861,7 +49861,7 @@ function GetRookieData() {
         "name": "Crioth"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 14,
         "place": "",
         "level": 5242,
@@ -51921,7 +51921,7 @@ function GetRookieData() {
         "name": "Alyssa"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 15,
         "place": "",
         "level": 7727,
@@ -54247,7 +54247,7 @@ function GetRookieData() {
         "name": "Swolly"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 46,
         "place": "",
         "level": 5400,
@@ -56265,7 +56265,7 @@ function GetRookieData() {
         "name": "Riggenstimple"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 35,
         "place": "",
         "level": 6345,
@@ -58598,7 +58598,7 @@ function GetRookieData() {
         "name": "LiSt"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 68,
         "place": "",
         "level": 2720,
@@ -60210,7 +60210,7 @@ function GetRookieData() {
         "name": "Swolly"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 32,
         "place": "",
         "level": 6000,
@@ -61911,7 +61911,7 @@ function GetRookieData() {
         "name": "meaty"
       },
       {
-        "id": "IDHiro",
+        "id": "XZGZTPRC8EGG7142QB",
         "rank": 256,
         "place": "",
         "level": 1,
@@ -61955,7 +61955,7 @@ function GetRookieData() {
         "name": "Jimmybald"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 6,
         "place": "",
         "level": 12640,
@@ -64127,7 +64127,7 @@ function GetRookieData() {
         "name": "Ratsbane"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 26,
         "place": "",
         "level": 6262,
@@ -65786,7 +65786,7 @@ function GetRookieData() {
         "name": "LW"
       },
       {
-        "id": "IDHiro",
+        "id": "XZGZTPRC8EGG7142QB",
         "rank": 255,
         "place": "",
         "level": 3,
@@ -66201,7 +66201,7 @@ function GetRookieData() {
         "name": "artesian peaches"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 35,
         "place": "",
         "level": 4404,
@@ -68142,7 +68142,7 @@ function GetRookieData() {
         "name": "Athena124"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 34,
         "place": "",
         "level": 5462,
@@ -70132,7 +70132,7 @@ function GetRookieData() {
         "name": "Gehnavast"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 20,
         "place": "",
         "level": 5642,
@@ -72143,7 +72143,7 @@ function GetRookieData() {
         "name": "Urzorn"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 37,
         "place": "",
         "level": 4500,
@@ -73853,7 +73853,7 @@ function GetRookieData() {
         "name": "HermesT"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 23,
         "place": "",
         "level": 5691,
@@ -76025,7 +76025,7 @@ function GetRookieData() {
         "name": "Ghaz"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 67,
         "place": "",
         "level": 1500,
@@ -78092,7 +78092,7 @@ function GetRookieData() {
         "name": "Ludivik"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 71,
         "place": "",
         "level": 1800,
@@ -80187,7 +80187,7 @@ function GetRookieData() {
         "name": "Redving"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 71,
         "place": "",
         "level": 1500,
@@ -82065,7 +82065,7 @@ function GetRookieData() {
         "name": "Chlorr"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 71,
         "place": "",
         "level": 1070,
@@ -83817,7 +83817,7 @@ function GetRookieData() {
         "name": "PraiseBrad"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 84,
         "place": "",
         "level": 575,
@@ -85289,7 +85289,7 @@ function GetRookieData() {
         "name": "Deragoloy"
       },
       {
-        "id": "IDJondean",
+        "id": "YPG6JYGGZEJJH9AJPM",
         "rank": 99,
         "place": "",
         "level": 300,
@@ -93969,7 +93969,7 @@ function GetRookieData() {
         "name": "LP-LXXXI"
       },
       {
-        "id": "IDHiro",
+        "id": "XZGZTPRC8EGG7142QB",
         "rank": 13,
         "place": "",
         "level": 50,
