@@ -131,7 +131,7 @@ function TournamentTable(data) {
 		autoWidth: false,
 		pageLength: 25,
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
-		order: [[0, 'desc'], [5, 'desc']],
+		order: [[0, 'asc'], [5, 'desc']],
 		search: { search: 'Jimmybald' },
 		deferRender: true,
 		columns: [
