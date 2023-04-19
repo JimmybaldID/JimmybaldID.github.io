@@ -142,6 +142,7 @@ $(document).ready(function () {
 	NewcomersTable(grouped);
 	ParticipationsTable(grouped);
 	BracketWinnersTable(grouped);
+	ChampionsTable(grouped);
 });
 
 function handleDateChange(event) {
@@ -420,6 +421,44 @@ function BracketWinnersTable(grouped) {
 	// Fill table
 	$('#table_bracketwinners').DataTable({
 		data: winners,
+		autoWidth: false,
+		pageLength: 25,
+		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
+		order: [[1, 'desc'], [2, 'desc']],
+		deferRender: true,
+		columns: [
+			{ data: 'name', title: "Name", width: 170 },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.amount, type, val, meta), title: "Amount", className: 'dt-body-right dt-head-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.highestlevel, type, val, meta), title: "Highest", className: 'dt-body-right dt-head-center' },
+			{ data: 'highestdate', title: "Date", className: 'dt-center' },
+			{ data: (row, type, val, meta) => FormatTableNumber(row.lowestlevel, type, val, meta), title: "Lowest", className: 'dt-body-right dt-head-center' },
+			{ data: 'lowestdate', title: "Date", className: 'dt-center' },
+		],
+	});
+}
+
+function ChampionsTable(grouped) {
+	// Get the amount of wins for each id and some other info
+	var champions = [];
+	for (var id in grouped) {
+		var wins = grouped[id].filter((a) => a.rank == 1);
+		var amount = wins.length;
+		if (amount > 0) {			
+			var info = {
+				name: wins[0].name,
+				amount: amount,
+				highestlevel: wins.reduce((a, b) => a.level > b.level ? a : b).level,
+				highestdate: wins.reduce((a, b) => a.date > b.date ? a : b).date,
+				lowestlevel: ((amount == 1) ? '' : wins.reduce((a, b) => a.level < b.level ? a : b).level),
+				lowestdate: ((amount == 1) ? '' : wins.reduce((a, b) => a.date < b.date ? a : b).date),
+			}
+			champions.push(info);
+		}
+	}	
+		
+	// Fill table
+	$('#table_champions').DataTable({
+		data: champions,
 		autoWidth: false,
 		pageLength: 25,
 		lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"] ],
