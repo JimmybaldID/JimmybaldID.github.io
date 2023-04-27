@@ -1,6 +1,6 @@
 function GetRookieData() {
   return {
-    "2023-04-26": [
+  "2023-04-26": [
       {
         "id": "K1K6EVEGYXS9RZFDHR",
         "rank": 1,
