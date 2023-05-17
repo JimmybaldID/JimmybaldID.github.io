@@ -142,7 +142,9 @@ $(document).ready(function () {
 	NewcomersTable(grouped);
 	ParticipationsTable(grouped);
 	BracketWinnersTable(grouped);
-	ChampionsTable(grouped);
+	var champions = ChampionsTable(grouped);
+	
+	PieChart(champions);
 });
 
 function handleDateChange(event) {
@@ -473,6 +475,8 @@ function ChampionsTable(grouped) {
 			{ data: 'lowestdate', title: "Date", className: 'dt-center' },
 		],
 	});
+	
+	return champions;
 }
 
 function FormatTableNumber(number, type, val, meta, prefix = null) {
@@ -485,4 +489,42 @@ function FormatTableNumber(number, type, val, meta, prefix = null) {
 	}
 
 	return number;
+}
+
+function PieChart(data) {
+	const ctx = document.getElementById('chart_champions');
+	
+	var topchampions = data.sort((a, b) => b.amount - a.amount).slice(0, 10);
+	var labels = topchampions.map(d => d.name);
+	var dataset = topchampions.map(d => d.amount);
+
+	new Chart(ctx, {
+		type: 'pie',
+		plugins: [ChartDataLabels],
+		data: {
+			labels: labels,
+			datasets: [{
+				data: dataset,
+				borderWidth: 0.5,
+			}]
+		},
+		options: {
+			color: '#fff',
+			plugins: {
+				datalabels: {
+					color: '#333',
+					labels: {
+						value: {
+							font: {
+								weight: 'bold',
+							},
+						},
+					},
+					formatter: function(value, context) {
+						return context.chart.data.labels[context.dataIndex] + ': ' + value;
+					},
+				}
+			}
+		}
+	});
 }
