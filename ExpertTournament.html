@@ -17,6 +17,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 		<script type="text/javascript" src="js/version.js"></script>
 		<script type="text/javascript" src="js/expertdata.js"></script>
 		<script type="text/javascript" src="js/IDTournament.js" tier="expert"></script>
@@ -96,6 +98,10 @@
 			</div>
 			<div id="tab_champions" class="tab-pane">
 				<table id="table_champions" class="table table-dark table-hover cell-border"></table>
+				
+				<div>
+				  <canvas id="chart_champions"></canvas>
+				</div>
 			</div>
 		</div>
 	</body>
