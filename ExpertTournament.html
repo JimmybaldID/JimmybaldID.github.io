@@ -65,12 +65,14 @@
 				<li>
 					<a id="tab_champions_trigger" href="#tab_champions" data-toggle="tab" onclick="handleTabChange('tab_champions_trigger')">Champions</a>
 				</li>
+				<li>
+					<a id="tab_graphs_trigger" href="#tab_graphs" data-toggle="tab" onclick="handleTabChange('tab_graphs_trigger')">Graphs</a>
+				</li>
             </ul>
         </div>
 		<div id="tab_content" class="tab-content">
-			<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
-
-			<div id="tab_tournament" class="tab-pane active">
+			<div id="tab_tournament" class="tab-pane fit active">
+				<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
                 <label class="big">
                     Select date:
                     <select id="dateselect" onchange="handleDateChange(event)">
@@ -78,30 +80,39 @@
                 </label>
 				<table id="table_tournament" class="table table-dark table-hover cell-border"></table>
 			</div>
-			<div id="tab_highscores" class="tab-pane">
+			<div id="tab_highscores" class="tab-pane fit">
+				<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
 				<table id="table_highscores" class="table table-dark table-hover cell-border"></table>
 			</div>
-			<div id="tab_personalbests" class="tab-pane">
+			<div id="tab_personalbests" class="tab-pane fit">
+				<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
 				<table id="table_personalbests" class="table table-dark table-hover cell-border"></table>
 			</div>
-			<div id="tab_personalbestimprovements" class="tab-pane">
+			<div id="tab_personalbestimprovements" class="tab-pane fit">
+				<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
 				<table id="table_personalbestimprovements" class="table table-dark table-hover cell-border"></table>
 			</div>
-			<div id="tab_newcomers" class="tab-pane">
+			<div id="tab_newcomers" class="tab-pane fit">
+				<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
 				<table id="table_newcomers" class="table table-dark table-hover cell-border"></table>
 			</div>
-			<div id="tab_participations" class="tab-pane">
+			<div id="tab_participations" class="tab-pane fit">
+				<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
 				<table id="table_participations" class="table table-dark table-hover cell-border"></table>
 			</div>
-			<div id="tab_bracketwinners" class="tab-pane">
+			<div id="tab_bracketwinners" class="tab-pane fit">
+				<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
 				<table id="table_bracketwinners" class="table table-dark table-hover cell-border"></table>
 			</div>
-			<div id="tab_champions" class="tab-pane">
+			<div id="tab_champions" class="tab-pane fit">
+				<input id="btnSave" type="button" onclick="getScreenShot()" value="Copy Table To Clipboard" />
 				<table id="table_champions" class="table table-dark table-hover cell-border"></table>
-				
-				<div>
-				  <canvas id="chart_champions"></canvas>
-				</div>
+				<canvas id="chart_champions"></canvas>
+			</div>
+			<div id="tab_graphs" class="tab-pane">
+				<canvas id="chart_lasttournamentsdistribution" height="100%"></canvas>
+				<hr>
+				<canvas id="chart_lasttournaments" height="100%"></canvas>
 			</div>
 		</div>
 	</body>
