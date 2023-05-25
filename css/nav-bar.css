@@ -54,6 +54,6 @@ ul.horizontal li a.active {
 	color: #999;
 }
 
-.tab-content {
+.fit {
 	width: fit-content;
 }
