@@ -145,6 +145,7 @@ $(document).ready(function () {
 	var champions = ChampionsTable(grouped);
 	
 	PieChart(champions);
+	LastTournamentsGraph(data);
 });
 
 function handleDateChange(event) {
@@ -527,4 +528,123 @@ function PieChart(data) {
 			}
 		}
 	});
+}
+
+function LastTournamentsGraph(data) {	
+	var lastdates = Object.keys(data).slice(0, 7);
+	
+	var maxdate = lastdates.reduce((a,b) => data[a].length > data[b].length ? a : b)
+	var maxlength = data[maxdate].length;	
+	var datasets = lastdates.map(d => ({label: d, data: data[d].map(t => t.level), borderWidth: 0.5}));
+
+	new Chart(document.getElementById('chart_lasttournaments'), {
+		type: 'line',
+		data: {
+			labels: Array(maxlength).fill().map((a,b) => b + 1),
+			datasets: datasets,
+		},
+		options: {
+			color: '#fff',
+			plugins: {
+				title: {
+					display: true,
+					text: 'Last 7 tournaments',
+					color: '#ddd',
+					font: {
+                        size: 18,
+                    },
+				}
+			},
+			scales: {
+				y: {
+					grid: {
+						color: '#777'
+					},
+					ticks: {
+						color: '#ddd'
+					}
+				},
+				x: {
+					grid: {
+						color: '#777'
+					},
+					ticks: {
+						color: '#ddd'
+					}
+				}
+			}
+		}
+	});
+	
+	var maxdate = lastdates.reduce((a,b) => data[a][0].level > data[b][0].level ? a : b)
+	var maxlevel = data[maxdate][0].level;
+	var factor = Math.pow(10, maxlevel.toString().length-2);
+	var distribution = distribute(Math.ceil(maxlevel / factor) * factor, 10);
+	
+	var labels = distribution.map(d => d.literal);
+	var datasets = lastdates.map(d => {
+		var buckets = {};
+		distribution.map(d => buckets[d.literal] = 0);
+		data[d].map(t => {
+			var bucket = distribution.find(d => t.level <= d.limit);
+			buckets[bucket.literal]++;
+		});
+		
+		return ({label: d, data: buckets, borderWidth: 0.5});
+	});
+	
+	new Chart(document.getElementById('chart_lasttournamentsdistribution'), {
+		type: 'bar',
+		data: {
+			labels: labels,
+			datasets: datasets,
+		},
+		options: {
+			color: '#fff',
+			plugins: {
+				title: {
+					display: true,
+					text: 'Distribution of scores of the last 7 tournaments',
+					color: '#ddd',
+					font: {
+                        size: 18,
+                    },
+				}
+			},
+			scales: {
+				y: {
+					grid: {
+						color: '#777'
+					},
+					ticks: {
+						color: '#ddd'
+					}
+				},
+				x: {
+					grid: {
+						color: '#777'
+					},
+					ticks: {
+						color: '#ddd'
+					}
+				}
+			}
+		}
+	});
+}
+
+function distribute (max, buckets) {
+    var arr = [], rpt = max / buckets, groupLiteral_low;
+    for (var i = 0; i < max; i += rpt) {
+        if (Math.ceil(i) != i || i==0) {
+            groupLiteral_low = Math.ceil(i);
+        } else {
+            groupLiteral_low = Math.ceil(i)+1;
+        }
+        arr.push({
+            "limit": (Math.floor(rpt+i)),
+            "literal": groupLiteral_low + "-" + (Math.floor(rpt+i))
+        });
+    }
+    return arr; 
 }
