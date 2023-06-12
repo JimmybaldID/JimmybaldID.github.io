@@ -146,6 +146,9 @@ $(document).ready(function () {
 	
 	PieChart(champions);
 	LastTournamentsGraph(data);
+	
+	var alldata = { 'rookie': GetData('rookie'), 'pro': GetData('pro'), 'expert': GetData('expert') }
+	ParticipationGraph(alldata);
 });
 
 function handleDateChange(event) {
@@ -647,4 +650,60 @@ function distribute (max, buckets) {
         });
     }
     return arr; 
+}
+
+function ParticipationGraph(alldata) {
+	console.time('Participation table generation took');
+	var labels = Object.keys(alldata['rookie']).sort();
+	var datasets = Object.keys(alldata).map(t => {
+		var dates = Object.keys(alldata[t]).sort();
+		var tour = {};
+		dates.map(d => {
+			tour[d] = alldata[t][d].length
+		});
+		return { 
+			label: t, 
+			data: tour,
+		};
+	});
+		
+	new Chart(document.getElementById('chart_participation'), {
+		type: 'line',
+		data: {
+			labels: labels,
+			datasets: datasets,
+		},
+		options: {
+			color: '#fff',
+			plugins: {
+				title: {
+					display: true,
+					text: 'Participation for each tournament',
+					color: '#ddd',
+					font: {
+                        size: 18,
+                    },
+				}
+			},
+			scales: {
+				y: {
+					grid: {
+						color: '#777'
+					},
+					ticks: {
+						color: '#ddd'
+					}
+				},
+				x: {
+					grid: {
+						color: '#777'
+					},
+					ticks: {
+						color: '#ddd'
+					}
+				}
+			}
+		}
+	});
+	console.timeEnd('Participation table generation took');
 }
