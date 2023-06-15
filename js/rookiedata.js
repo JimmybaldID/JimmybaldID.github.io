@@ -98796,11 +98796,11 @@ function GetRookieData() {
         "name": "Bailey"
       },
       {
-        "id": "IDFlerp Derp,4",
+        "id": "D77JYHSXAYQYV6AH7S",
         "rank": 171,
         "place": "",
         "level": 90,
-        "name": "Flerp Derp,4"
+        "name": "Flerp Derp"
       },
       {
         "id": "IDKilo",
