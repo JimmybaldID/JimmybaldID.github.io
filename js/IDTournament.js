@@ -44,6 +44,7 @@ function GetData(tier) {
 	
 	var idnames = {
 		'D75XXNG61KGMNYRJ8S': ['Xorn'],
+		'BZC11N0YBT0DZMWCKG': ['-DP exploit-'],
 	};
 	
 	var wrongid = {
