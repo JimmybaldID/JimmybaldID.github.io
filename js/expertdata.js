@@ -1,986 +1,1233 @@
 function GetExpertData() {
   return {
-	  "2023-07-10": [
- {
-   "id": "RF7J6MY2Z0398MCH60",
-   "rank": 1,
-   "place": 1,
-   "level": 2336,
-   "name": "The One Mark"
- },
- {
-   "id": "2R59BQ1X2EP8Z59FD2",
-   "rank": 2,
-   "place": 1,
-   "level": 2146,
-   "name": "Daox"
- },
- {
-   "id": "5TEQ1ZSC6J5XWKCMZE",
-   "rank": 3,
-   "place": 2,
-   "level": 1997,
-   "name": "Jimmybald"
- },
- {
-   "id": "GEW7Q0AX53FAGJV2BD",
-   "rank": 4,
-   "place": 3,
-   "level": 1955,
-   "name": "Blaze"
- },
- {
-   "id": "DYWFC36G517HMA7TG1",
-   "rank": 5,
-   "place": 4,
-   "level": 1828,
-   "name": "Riggenstimple"
- },
- {
-   "id": "F2VTKYXXT3ZQAAV12B",
-   "rank": 6,
-   "place": 5,
-   "level": 1651,
-   "name": "Deceet"
- },
- {
-   "id": "X7BJNJJA668V2KF5KW",
-   "rank": 7,
-   "place": 2,
-   "level": 1346,
-   "name": "Blaypeg"
- },
- {
-   "id": "PACG33BGRJ4KNRAKQQ",
-   "rank": 8,
-   "place": 6,
-   "level": 1279,
-   "name": "kell74"
- },
- {
-   "id": "E6WR46H97W2E2AT9H2",
-   "rank": 9,
-   "place": 7,
-   "level": 1219,
-   "name": "firdude"
- },
- {
-   "id": "4D7B4REST4PD7A2NJD",
-   "rank": 10,
-   "place": 3,
-   "level": 1188,
-   "name": "Jimmy \"Rust\" Old"
- },
- {
-   "id": "1DFJDMFABHABCM4YR5",
-   "rank": 11,
-   "place": 4,
-   "level": 1180,
-   "name": "Freekill"
- },
- {
-   "id": "HXACDTE2NF4VXEGDYW",
-   "rank": 12,
-   "place": 1,
-   "level": 1134,
-   "name": "Whoaness"
- },
- {
-   "id": "4MPGW8J55KDNRE4NB3",
-   "rank": 13,
-   "place": 8,
-   "level": 1049,
-   "name": "Neph"
- },
- {
-   "id": "EH8VZKK91GF1SG4NH8",
-   "rank": 14,
-   "place": 9,
-   "level": 986,
-   "name": "Olaf de Viesel"
- },
- {
-   "id": "98CT79F41Y6W8EVZNP",
-   "rank": 15,
-   "place": 5,
-   "level": 963,
-   "name": "Mikaplays"
- },
- {
-   "id": "K1K6EVEGYXS9RZFDHR",
-   "rank": 16,
-   "place": 10,
-   "level": 932,
-   "name": "Sakaryn"
- },
- {
-   "id": "MMBFV9SDEGQDF8WWV6",
-   "rank": 17,
-   "place": 11,
-   "level": 902,
-   "name": "jorte"
- },
- {
-   "id": "NSWBFRGHXV6ZFZF2JR",
-   "rank": 18,
-   "place": 2,
-   "level": 882,
-   "name": "ReverseNeutral"
- },
- {
-   "id": "X8D9T34QDF6J6ZAFWZ",
-   "rank": 19,
-   "place": 6,
-   "level": 814,
-   "name": "Dangins89"
- },
- {
-   "id": "J4KQ8F0PXRS8KBGM1P",
-   "rank": 20,
-   "place": 3,
-   "level": 764,
-   "name": "owo"
- },
- {
-   "id": "2JQX8XMAZKERD8AWKK",
-   "rank": 21,
-   "place": 7,
-   "level": 762,
-   "name": "blibla"
- },
- {
-   "id": "29XGE9MVNFBFX3MMAK",
-   "rank": 22,
-   "place": 8,
-   "level": 742,
-   "name": "Akuma no Tsubasa"
- },
- {
-   "id": "DV2G3XWRXVQFX98RYN",
-   "rank": 23,
-   "place": 9,
-   "level": 730,
-   "name": "Furryka"
- },
- {
-   "id": "D77JYHSXAYQYV6AH7S",
-   "rank": 24,
-   "place": 10,
-   "level": 728,
-   "name": "Flerp Derp"
- },
- {
-   "id": "FPD4E8HCATG0TD4NQ1",
-   "rank": 25,
-   "place": 12,
-   "level": 692,
-   "name": "devi"
- },
- {
-   "id": "CHG6V0JF08K45MDRKY",
-   "rank": 26,
-   "place": 11,
-   "level": 682,
-   "name": "Onyx"
- },
- {
-   "id": "5SV0A16D56DR3R1FHQ",
-   "rank": 27,
-   "place": 4,
-   "level": 661,
-   "name": "Micha 永禪"
- },
- {
-   "id": "VRWNN79NCSVRCK5SMZ",
-   "rank": 28,
-   "place": 5,
-   "level": 655,
-   "name": "HermesT"
- },
- {
-   "id": "5WK5P26C5RSPSNPHFA",
-   "rank": 29,
-   "place": 12,
-   "level": 645,
-   "name": "Seramiaw"
- },
- {
-   "id": "E7GFV1PMHYSWQ7VM53",
-   "rank": 30,
-   "place": 13,
-   "level": 581,
-   "name": "Einar"
- },
- {
-   "id": "97502QAS3HQ1VQGDMD",
-   "rank": 31,
-   "place": 14,
-   "level": 567,
-   "name": "Distant"
- },
- {
-   "id": "ZHY6D3AEDFKHB11EA4",
-   "rank": 32,
-   "place": 15,
-   "level": 556,
-   "name": "Kaelyssa"
- },
- {
-   "id": "JTBB4GJ7KKDJ3GFJC7",
-   "rank": 33,
-   "place": 6,
-   "level": 520,
-   "name": "0"
- },
- {
-   "id": "0FESE3GQZA9R1XBKW2",
-   "rank": 34,
-   "place": 13,
-   "level": 516,
-   "name": "EFO"
- },
- {
-   "id": "TPY61R01HT8YV84NDN",
-   "rank": 35,
-   "place": 7,
-   "level": 384,
-   "name": "ninjatank707"
- }
-],
-	  "2023-07-05": [
- {
-   "id": "2R59BQ1X2EP8Z59FD2",
-   "rank": 1,
-   "place": 1,
-   "level": 2581,
-   "name": "Daox"
- },
- {
-   "id": "RF7J6MY2Z0398MCH60",
-   "rank": 2,
-   "place": 2,
-   "level": 2528,
-   "name": "The One Mark"
- },
- {
-   "id": "MK3G4FE6CHX5EMPG2G",
-   "rank": 3,
-   "place": 3,
-   "level": 2143,
-   "name": "Meep"
- },
- {
-   "id": "GEW7Q0AX53FAGJV2BD",
-   "rank": 4,
-   "place": 1,
-   "level": 1834,
-   "name": "Blaze"
- },
- {
-   "id": "5TEQ1ZSC6J5XWKCMZE",
-   "rank": 5,
-   "place": 4,
-   "level": 1817,
-   "name": "Jimmybald"
- },
- {
-   "id": "F2VTKYXXT3ZQAAV12B",
-   "rank": 6,
-   "place": 1,
-   "level": 1812,
-   "name": "Deceet"
- },
- {
-   "id": "E6WR46H97W2E2AT9H2",
-   "rank": 7,
-   "place": 5,
-   "level": 1323,
-   "name": "firdude"
- },
- {
-   "id": "1DFJDMFABHABCM4YR5",
-   "rank": 8,
-   "place": 2,
-   "level": 1168,
-   "name": "Freekill"
- },
- {
-   "id": "X7BJNJJA668V2KF5KW",
-   "rank": 9,
-   "place": 6,
-   "level": 1117,
-   "name": "Blaypeg"
- },
- {
-   "id": "HXACDTE2NF4VXEGDYW",
-   "rank": 10,
-   "place": 2,
-   "level": 1116,
-   "name": "Whoaness"
- },
- {
-   "id": "PACG33BGRJ4KNRAKQQ",
-   "rank": 11,
-   "place": 3,
-   "level": 1085,
-   "name": "kell74"
- },
- {
-   "id": "4D7B4REST4PD7A2NJD",
-   "rank": 12,
-   "place": 3,
-   "level": 1014,
-   "name": "Jimmy \"Rust\" Old"
- },
- {
-   "id": "98CT79F41Y6W8EVZNP",
-   "rank": 13,
-   "place": 7,
-   "level": 957,
-   "name": "Mikaplays"
- },
- {
-   "id": "EH8VZKK91GF1SG4NH8",
-   "rank": 14,
-   "place": 8,
-   "level": 920,
-   "name": "Olaf de Viesel"
- },
- {
-   "id": "4MPGW8J55KDNRE4NB3",
-   "rank": 15,
-   "place": 4,
-   "level": 888,
-   "name": "Neph"
- },
- {
-   "id": "K1K6EVEGYXS9RZFDHR",
-   "rank": 16,
-   "place": 5,
-   "level": 846,
-   "name": "Sakaryn"
- },
- {
-   "id": "29XGE9MVNFBFX3MMAK",
-   "rank": 17,
-   "place": 6,
-   "level": 820,
-   "name": "Akuma no Tsubasa"
- },
- {
-   "id": "D77JYHSXAYQYV6AH7S",
-   "rank": 18,
-   "place": 4,
-   "level": 807,
-   "name": "Flerp Derp"
- },
- {
-   "id": "DV2G3XWRXVQFX98RYN",
-   "rank": 19,
-   "place": 9,
-   "level": 799,
-   "name": "Furryka"
- },
- {
-   "id": "97502QAS3HQ1VQGDMD",
-   "rank": 20,
-   "place": 5,
-   "level": 766,
-   "name": "Distant"
- },
- {
-   "id": "2JQX8XMAZKERD8AWKK",
-   "rank": 21,
-   "place": 7,
-   "level": 754,
-   "name": "blibla"
- },
- {
-   "id": "YHD8AF9GRGS3Z8E5GT",
-   "rank": 22,
-   "place": 6,
-   "level": 732,
-   "name": "NotInterested"
- },
- {
-   "id": "X8D9T34QDF6J6ZAFWZ",
-   "rank": 23,
-   "place": 8,
-   "level": 707,
-   "name": "Dangins89"
- },
- {
-   "id": "FPD4E8HCATG0TD4NQ1",
-   "rank": 24,
-   "place": 10,
-   "level": 702,
-   "name": "devi"
- },
- {
-   "id": "MMBFV9SDEGQDF8WWV6",
-   "rank": 25,
-   "place": 11,
-   "level": 699,
-   "name": "jorte"
- },
- {
-   "id": "G3WSQF4DWR9REAQT0Z",
-   "rank": 25,
-   "place": 11,
-   "level": 699,
-   "name": "Sharkman768"
- },
- {
-   "id": "J4KQ8F0PXRS8KBGM1P",
-   "rank": 27,
-   "place": 13,
-   "level": 675,
-   "name": "owo"
- },
- {
-   "id": "VRWNN79NCSVRCK5SMZ",
-   "rank": 28,
-   "place": 14,
-   "level": 652,
-   "name": "HermesT"
- },
- {
-   "id": "5SV0A16D56DR3R1FHQ",
-   "rank": 29,
-   "place": 7,
-   "level": 578,
-   "name": "Micha 永禪"
- },
- {
-   "id": "WWNNKAQKE8NVP1H3G5",
-   "rank": 30,
-   "place": 8,
-   "level": 564,
-   "name": "Druec"
- },
- {
-   "id": "16NH66G2MHQENP83W3",
-   "rank": 31,
-   "place": 15,
-   "level": 528,
-   "name": "Deus Mors"
- },
- {
-   "id": "0FESE3GQZA9R1XBKW2",
-   "rank": 32,
-   "place": 9,
-   "level": 468,
-   "name": "EFO"
- },
- {
-   "id": "FJAPSY64AZKDRSRFQ3",
-   "rank": 33,
-   "place": 10,
-   "level": 445,
-   "name": "opc_glatteis"
- }
-],
-	  "2023-07-02": [
- {
-   "id": "2R59BQ1X2EP8Z59FD2",
-   "rank": 1,
-   "place": 1,
-   "level": 2492,
-   "name": "Daox"
- },
- {
-   "id": "MK3G4FE6CHX5EMPG2G",
-   "rank": 2,
-   "place": 1,
-   "level": 2198,
-   "name": "Meep"
- },
- {
-   "id": "RF7J6MY2Z0398MCH60",
-   "rank": 3,
-   "place": 1,
-   "level": 2159,
-   "name": "The One Mark"
- },
- {
-   "id": "5TEQ1ZSC6J5XWKCMZE",
-   "rank": 4,
-   "place": 2,
-   "level": 1865,
-   "name": "Jimmybald"
- },
- {
-   "id": "GEW7Q0AX53FAGJV2BD",
-   "rank": 5,
-   "place": 2,
-   "level": 1748,
-   "name": "Blaze"
- },
- {
-   "id": "DYWFC36G517HMA7TG1",
-   "rank": 6,
-   "place": 2,
-   "level": 1531,
-   "name": "Riggenstimple"
- },
- {
-   "id": "X7BJNJJA668V2KF5KW",
-   "rank": 7,
-   "place": 3,
-   "level": 1526,
-   "name": "Blaypeg"
- },
- {
-   "id": "F2VTKYXXT3ZQAAV12B",
-   "rank": 8,
-   "place": 4,
-   "level": 1421,
-   "name": "Deceet"
- },
- {
-   "id": "HXACDTE2NF4VXEGDYW",
-   "rank": 9,
-   "place": 3,
-   "level": 1293,
-   "name": "Whoaness"
- },
- {
-   "id": "NSWBFRGHXV6ZFZF2JR",
-   "rank": 10,
-   "place": 3,
-   "level": 1113,
-   "name": "ReverseNeutral"
- },
- {
-   "id": "1DFJDMFABHABCM4YR5",
-   "rank": 11,
-   "place": 5,
-   "level": 1102,
-   "name": "Freekill"
- },
- {
-   "id": "P0WETZ0RPTND9VG243",
-   "rank": 12,
-   "place": 4,
-   "level": 1095,
-   "name": "Dzaga"
- },
- {
-   "id": "PACG33BGRJ4KNRAKQQ",
-   "rank": 13,
-   "place": 6,
-   "level": 1093,
-   "name": "kell74"
- },
- {
-   "id": "98CT79F41Y6W8EVZNP",
-   "rank": 14,
-   "place": 5,
-   "level": 1009,
-   "name": "Mikaplays"
- },
- {
-   "id": "TPY61R01HT8YV84NDN",
-   "rank": 15,
-   "place": 7,
-   "level": 990,
-   "name": "ninjatank707"
- },
- {
-   "id": "4D7B4REST4PD7A2NJD",
-   "rank": 16,
-   "place": 6,
-   "level": 986,
-   "name": "Jimmy \"Rust\" Old"
- },
- {
-   "id": "4MPGW8J55KDNRE4NB3",
-   "rank": 17,
-   "place": 8,
-   "level": 925,
-   "name": "Neph"
- },
- {
-   "id": "E6WR46H97W2E2AT9H2",
-   "rank": 18,
-   "place": 7,
-   "level": 924,
-   "name": "firdude"
- },
- {
-   "id": "RJJMFQMM64EX5FWBWN",
-   "rank": 19,
-   "place": 9,
-   "level": 904,
-   "name": "Terra"
- },
- {
-   "id": "DV2G3XWRXVQFX98RYN",
-   "rank": 20,
-   "place": 4,
-   "level": 896,
-   "name": "Furryka"
- },
- {
-   "id": "EH8VZKK91GF1SG4NH8",
-   "rank": 21,
-   "place": 8,
-   "level": 882,
-   "name": "Olaf de Viesel"
- },
- {
-   "id": "D77JYHSXAYQYV6AH7S",
-   "rank": 22,
-   "place": 9,
-   "level": 838,
-   "name": "Flerp Derp"
- },
- {
-   "id": "K1K6EVEGYXS9RZFDHR",
-   "rank": 23,
-   "place": 5,
-   "level": 820,
-   "name": "Sakaryn"
- },
- {
-   "id": "YHD8AF9GRGS3Z8E5GT",
-   "rank": 24,
-   "place": 10,
-   "level": 801,
-   "name": "NotInterested"
- },
- {
-   "id": "2JQX8XMAZKERD8AWKK",
-   "rank": 25,
-   "place": 6,
-   "level": 768,
-   "name": "blibla"
- },
- {
-   "id": "16NH66G2MHQENP83W3",
-   "rank": 26,
-   "place": 7,
-   "level": 751,
-   "name": "Deus Mors"
- },
- {
-   "id": "29XGE9MVNFBFX3MMAK",
-   "rank": 27,
-   "place": 8,
-   "level": 722,
-   "name": "Akuma no Tsubasa"
- },
- {
-   "id": "J4KQ8F0PXRS8KBGM1P",
-   "rank": 28,
-   "place": 10,
-   "level": 706,
-   "name": "owo"
- },
- {
-   "id": "FPD4E8HCATG0TD4NQ1",
-   "rank": 29,
-   "place": 11,
-   "level": 600,
-   "name": "devi"
- },
- {
-   "id": "VRWNN79NCSVRCK5SMZ",
-   "rank": 30,
-   "place": 9,
-   "level": 579,
-   "name": "HermesT"
- },
- {
-   "id": "YPG6JYGGZEJJH9AJPM",
-   "rank": 31,
-   "place": 11,
-   "level": 518,
-   "name": "Jondean"
- },
- {
-   "id": "TG4JBY4JWT0JQMYJZN",
-   "rank": 32,
-   "place": 12,
-   "level": 483,
-   "name": "Pönttö"
- },
- {
-   "id": "0FESE3GQZA9R1XBKW2",
-   "rank": 33,
-   "place": 10,
-   "level": 472,
-   "name": "EFO"
- },
- {
-   "id": "FB8HT42BJ0R2D4ZN1H",
-   "rank": 34,
-   "place": 11,
-   "level": 441,
-   "name": "Doctor MOM"
- }
-],
-	  "2023-06-28": [
- {
-   "id": "2R59BQ1X2EP8Z59FD2",
-   "rank": 1,
-   "place": 1,
-   "level": 2762,
-   "name": "Daox"
- },
- {
-   "id": "MK3G4FE6CHX5EMPG2G",
-   "rank": 2,
-   "place": 2,
-   "level": 2153,
-   "name": "Meep"
- },
- {
-   "id": "5TEQ1ZSC6J5XWKCMZE",
-   "rank": 3,
-   "place": 3,
-   "level": 2121,
-   "name": "Jimmybald"
- },
- {
-   "id": "RF7J6MY2Z0398MCH60",
-   "rank": 4,
-   "place": 4,
-   "level": 2117,
-   "name": "The One Mark"
- },
- {
-   "id": "GEW7Q0AX53FAGJV2BD",
-   "rank": 5,
-   "place": 1,
-   "level": 1742,
-   "name": "Blaze"
- },
- {
-   "id": "Y8NDYRKED4D9408XZP",
-   "rank": 6,
-   "place": 1,
-   "level": 1722,
-   "name": "ForFun"
- },
- {
-   "id": "F2VTKYXXT3ZQAAV12B",
-   "rank": 7,
-   "place": 2,
-   "level": 1604,
-   "name": "Deceet"
- },
- {
-   "id": "DYWFC36G517HMA7TG1",
-   "rank": 8,
-   "place": 3,
-   "level": 1544,
-   "name": "Riggenstimple"
- },
- {
-   "id": "X7BJNJJA668V2KF5KW",
-   "rank": 9,
-   "place": 2,
-   "level": 1507,
-   "name": "Blaypeg"
- },
- {
-   "id": "E6WR46H97W2E2AT9H2",
-   "rank": 10,
-   "place": 3,
-   "level": 1480,
-   "name": "firdude"
- },
- {
-   "id": "Q9HNKM8PA67C7TAR90",
-   "rank": 11,
-   "place": 4,
-   "level": 1200,
-   "name": "Kyle Smith"
- },
- {
-   "id": "HXACDTE2NF4VXEGDYW",
-   "rank": 12,
-   "place": 4,
-   "level": 1184,
-   "name": "Whoaness"
- },
- {
-   "id": "MXWDCNZC5ZDAVG067E",
-   "rank": 13,
-   "place": 5,
-   "level": 1177,
-   "name": "Recna"
- },
- {
-   "id": "4D7B4REST4PD7A2NJD",
-   "rank": 14,
-   "place": 5,
-   "level": 1111,
-   "name": "Jimmy \"Rust\" Old"
- },
- {
-   "id": "PACG33BGRJ4KNRAKQQ",
-   "rank": 15,
-   "place": 6,
-   "level": 1093,
-   "name": "kell74"
- },
- {
-   "id": "1DFJDMFABHABCM4YR5",
-   "rank": 16,
-   "place": 5,
-   "level": 1066,
-   "name": "Freekill"
- },
- {
-   "id": "4MPGW8J55KDNRE4NB3",
-   "rank": 17,
-   "place": 7,
-   "level": 977,
-   "name": "Neph"
- },
- {
-   "id": "P0WETZ0RPTND9VG243",
-   "rank": 18,
-   "place": 6,
-   "level": 973,
-   "name": "Dzaga"
- },
- {
-   "id": "98CT79F41Y6W8EVZNP",
-   "rank": 19,
-   "place": 8,
-   "level": 939,
-   "name": "Mikaplays"
- },
- {
-   "id": "NSWBFRGHXV6ZFZF2JR",
-   "rank": 20,
-   "place": 9,
-   "level": 920,
-   "name": "ReverseNeutral"
- },
- {
-   "id": "RJJMFQMM64EX5FWBWN",
-   "rank": 21,
-   "place": 6,
-   "level": 883,
-   "name": "Terra"
- },
- {
-   "id": "D77JYHSXAYQYV6AH7S",
-   "rank": 22,
-   "place": 7,
-   "level": 817,
-   "name": "Flerp Derp"
- },
- {
-   "id": "YEJA8B0J5MWYH96E1H",
-   "rank": 23,
-   "place": 10,
-   "level": 801,
-   "name": "Kaari_Gi"
- },
- {
-   "id": "MMBFV9SDEGQDF8WWV6",
-   "rank": 24,
-   "place": 11,
-   "level": 782,
-   "name": "jorte"
- },
- {
-   "id": "VRWNN79NCSVRCK5SMZ",
-   "rank": 25,
-   "place": 12,
-   "level": 780,
-   "name": "HermesT"
- },
- {
-   "id": "2JQX8XMAZKERD8AWKK",
-   "rank": 26,
-   "place": 8,
-   "level": 765,
-   "name": "blibla"
- },
- {
-   "id": "EH8VZKK91GF1SG4NH8",
-   "rank": 27,
-   "place": 13,
-   "level": 764,
-   "name": "Olaf de Viesel"
- },
- {
-   "id": "29XGE9MVNFBFX3MMAK",
-   "rank": 28,
-   "place": 9,
-   "level": 758,
-   "name": "Akuma no Tsubasa"
- },
- {
-   "id": "YHD8AF9GRGS3Z8E5GT",
-   "rank": 29,
-   "place": 10,
-   "level": 749,
-   "name": "NotInterested"
- },
- {
-   "id": "DV2G3XWRXVQFX98RYN",
-   "rank": 30,
-   "place": 11,
-   "level": 745,
-   "name": "Furryka"
- },
- {
-   "id": "J4KQ8F0PXRS8KBGM1P",
-   "rank": 31,
-   "place": 7,
-   "level": 737,
-   "name": "owo"
- },
- {
-   "id": "TPY61R01HT8YV84NDN",
-   "rank": 32,
-   "place": 8,
-   "level": 728,
-   "name": "ninjatank707"
- },
- {
-   "id": "16NH66G2MHQENP83W3",
-   "rank": 33,
-   "place": 12,
-   "level": 683,
-   "name": "Deus Mors"
- },
- {
-   "id": "FPD4E8HCATG0TD4NQ1",
-   "rank": 34,
-   "place": 13,
-   "level": 660,
-   "name": "devi"
- },
- {
-   "id": "JTBB4GJ7KKDJ3GFJC7",
-   "rank": 35,
-   "place": 14,
-   "level": 493,
-   "name": "0"
- },
- {
-   "id": "JT4ACH11A3NG7EGW7R",
-   "rank": 36,
-   "place": 14,
-   "level": 475,
-   "name": "Higanbana"
- },
- {
-   "id": "0FESE3GQZA9R1XBKW2",
-   "rank": 37,
-   "place": 9,
-   "level": 457,
-   "name": "EFO"
- }
-],
+    "2023-07-12": [
+      {
+        "id": "RF7J6MY2Z0398MCH60",
+        "rank": 1,
+        "place": 1,
+        "level": 2318,
+        "name": "The One Mark"
+      },
+      {
+        "id": "2R59BQ1X2EP8Z59FD2",
+        "rank": 2,
+        "place": 1,
+        "level": 2220,
+        "name": "Daox"
+      },
+      {
+        "id": "5TEQ1ZSC6J5XWKCMZE",
+        "rank": 3,
+        "place": 1,
+        "level": 2191,
+        "name": "Jimmybald"
+      },
+      {
+        "id": "GEW7Q0AX53FAGJV2BD",
+        "rank": 4,
+        "place": 2,
+        "level": 1780,
+        "name": "Blaze"
+      },
+      {
+        "id": "F2VTKYXXT3ZQAAV12B",
+        "rank": 5,
+        "place": 2,
+        "level": 1628,
+        "name": "Deceet"
+      },
+      {
+        "id": "E6WR46H97W2E2AT9H2",
+        "rank": 6,
+        "place": 3,
+        "level": 1450,
+        "name": "firdude"
+      },
+      {
+        "id": "Q9HNKM8PA67C7TAR90",
+        "rank": 7,
+        "place": 2,
+        "level": 1421,
+        "name": "Kyle Smith"
+      },
+      {
+        "id": "DYWFC36G517HMA7TG1",
+        "rank": 8,
+        "place": 4,
+        "level": 1409,
+        "name": "Riggenstimple"
+      },
+      {
+        "id": "HXACDTE2NF4VXEGDYW",
+        "rank": 9,
+        "place": 3,
+        "level": 1184,
+        "name": "Whoaness"
+      },
+      {
+        "id": "4D7B4REST4PD7A2NJD",
+        "rank": 10,
+        "place": 5,
+        "level": 1168,
+        "name": "Jimmy \"Rust\" Old"
+      },
+      {
+        "id": "X7BJNJJA668V2KF5KW",
+        "rank": 11,
+        "place": 3,
+        "level": 1138,
+        "name": "Blaypeg"
+      },
+      {
+        "id": "1DFJDMFABHABCM4YR5",
+        "rank": 12,
+        "place": 6,
+        "level": 1096,
+        "name": "Freekill"
+      },
+      {
+        "id": "PACG33BGRJ4KNRAKQQ",
+        "rank": 13,
+        "place": 4,
+        "level": 1049,
+        "name": "kell74"
+      },
+      {
+        "id": "TPY61R01HT8YV84NDN",
+        "rank": 14,
+        "place": 5,
+        "level": 1035,
+        "name": "ninjatank707"
+      },
+      {
+        "id": "P0WETZ0RPTND9VG243",
+        "rank": 15,
+        "place": 7,
+        "level": 956,
+        "name": "Dzaga"
+      },
+      {
+        "id": "EH8VZKK91GF1SG4NH8",
+        "rank": 16,
+        "place": 6,
+        "level": 941,
+        "name": "Olaf de Viesel"
+      },
+      {
+        "id": "K1K6EVEGYXS9RZFDHR",
+        "rank": 17,
+        "place": 8,
+        "level": 922,
+        "name": "Sakaryn"
+      },
+      {
+        "id": "98CT79F41Y6W8EVZNP",
+        "rank": 18,
+        "place": 4,
+        "level": 847,
+        "name": "Mikaplays"
+      },
+      {
+        "id": "4MPGW8J55KDNRE4NB3",
+        "rank": 19,
+        "place": 9,
+        "level": 807,
+        "name": "Neph"
+      },
+      {
+        "id": "YHD8AF9GRGS3Z8E5GT",
+        "rank": 20,
+        "place": 5,
+        "level": 788,
+        "name": "NotInterested"
+      },
+      {
+        "id": "D77JYHSXAYQYV6AH7S",
+        "rank": 21,
+        "place": 7,
+        "level": 782,
+        "name": "Flerp Derp"
+      },
+      {
+        "id": "2JQX8XMAZKERD8AWKK",
+        "rank": 22,
+        "place": 8,
+        "level": 764,
+        "name": "blibla"
+      },
+      {
+        "id": "FPD4E8HCATG0TD4NQ1",
+        "rank": 23,
+        "place": 6,
+        "level": 756,
+        "name": "devi"
+      },
+      {
+        "id": "5WK5P26C5RSPSNPHFA",
+        "rank": 24,
+        "place": 7,
+        "level": 746,
+        "name": "Seramiaw"
+      },
+      {
+        "id": "97502QAS3HQ1VQGDMD",
+        "rank": 25,
+        "place": 10,
+        "level": 741,
+        "name": "Distant"
+      },
+      {
+        "id": "J4KQ8F0PXRS8KBGM1P",
+        "rank": 26,
+        "place": 8,
+        "level": 678,
+        "name": "owo"
+      },
+      {
+        "id": "5SV0A16D56DR3R1FHQ",
+        "rank": 27,
+        "place": 9,
+        "level": 651,
+        "name": "Micha 永禪"
+      },
+      {
+        "id": "VRWNN79NCSVRCK5SMZ",
+        "rank": 28,
+        "place": 11,
+        "level": 632,
+        "name": "HermesT"
+      },
+      {
+        "id": "PQHBS8E6CGHK3DD81Y",
+        "rank": 29,
+        "place": 10,
+        "level": 616,
+        "name": "y.bandokay3x3"
+      },
+      {
+        "id": "CHG6V0JF08K45MDRKY",
+        "rank": 30,
+        "place": 9,
+        "level": 545,
+        "name": "Onyx"
+      },
+      {
+        "id": "CA0QPHB5H19ZE95FWH",
+        "rank": 31,
+        "place": 12,
+        "level": 517,
+        "name": "red"
+      },
+      {
+        "id": "E7GFV1PMHYSWQ7VM53",
+        "rank": 32,
+        "place": 13,
+        "level": 510,
+        "name": "Einar"
+      },
+      {
+        "id": "EH2B4QYD2QEX3SP23W",
+        "rank": 33,
+        "place": 10,
+        "level": 506,
+        "name": "imsobaboy"
+      },
+      {
+        "id": "JTBB4GJ7KKDJ3GFJC7",
+        "rank": 34,
+        "place": 11,
+        "level": 484,
+        "name": "0"
+      },
+      {
+        "id": "FJAPSY64AZKDRSRFQ3",
+        "rank": 35,
+        "place": 12,
+        "level": 483,
+        "name": "opc_glatteis"
+      }
+    ],
+    "2023-07-09": [
+      {
+        "id": "RF7J6MY2Z0398MCH60",
+        "rank": 1,
+        "place": 1,
+        "level": 2336,
+        "name": "The One Mark"
+      },
+      {
+        "id": "2R59BQ1X2EP8Z59FD2",
+        "rank": 2,
+        "place": 1,
+        "level": 2146,
+        "name": "Daox"
+      },
+      {
+        "id": "5TEQ1ZSC6J5XWKCMZE",
+        "rank": 3,
+        "place": 2,
+        "level": 1997,
+        "name": "Jimmybald"
+      },
+      {
+        "id": "GEW7Q0AX53FAGJV2BD",
+        "rank": 4,
+        "place": 3,
+        "level": 1955,
+        "name": "Blaze"
+      },
+      {
+        "id": "DYWFC36G517HMA7TG1",
+        "rank": 5,
+        "place": 4,
+        "level": 1828,
+        "name": "Riggenstimple"
+      },
+      {
+        "id": "F2VTKYXXT3ZQAAV12B",
+        "rank": 6,
+        "place": 5,
+        "level": 1651,
+        "name": "Deceet"
+      },
+      {
+        "id": "X7BJNJJA668V2KF5KW",
+        "rank": 7,
+        "place": 2,
+        "level": 1346,
+        "name": "Blaypeg"
+      },
+      {
+        "id": "PACG33BGRJ4KNRAKQQ",
+        "rank": 8,
+        "place": 6,
+        "level": 1279,
+        "name": "kell74"
+      },
+      {
+        "id": "E6WR46H97W2E2AT9H2",
+        "rank": 9,
+        "place": 7,
+        "level": 1219,
+        "name": "firdude"
+      },
+      {
+        "id": "4D7B4REST4PD7A2NJD",
+        "rank": 10,
+        "place": 3,
+        "level": 1188,
+        "name": "Jimmy \"Rust\" Old"
+      },
+      {
+        "id": "1DFJDMFABHABCM4YR5",
+        "rank": 11,
+        "place": 4,
+        "level": 1180,
+        "name": "Freekill"
+      },
+      {
+        "id": "HXACDTE2NF4VXEGDYW",
+        "rank": 12,
+        "place": 1,
+        "level": 1134,
+        "name": "Whoaness"
+      },
+      {
+        "id": "4MPGW8J55KDNRE4NB3",
+        "rank": 13,
+        "place": 8,
+        "level": 1049,
+        "name": "Neph"
+      },
+      {
+        "id": "EH8VZKK91GF1SG4NH8",
+        "rank": 14,
+        "place": 9,
+        "level": 986,
+        "name": "Olaf de Viesel"
+      },
+      {
+        "id": "98CT79F41Y6W8EVZNP",
+        "rank": 15,
+        "place": 5,
+        "level": 963,
+        "name": "Mikaplays"
+      },
+      {
+        "id": "K1K6EVEGYXS9RZFDHR",
+        "rank": 16,
+        "place": 10,
+        "level": 932,
+        "name": "Sakaryn"
+      },
+      {
+        "id": "MMBFV9SDEGQDF8WWV6",
+        "rank": 17,
+        "place": 11,
+        "level": 902,
+        "name": "jorte"
+      },
+      {
+        "id": "NSWBFRGHXV6ZFZF2JR",
+        "rank": 18,
+        "place": 2,
+        "level": 882,
+        "name": "ReverseNeutral"
+      },
+      {
+        "id": "X8D9T34QDF6J6ZAFWZ",
+        "rank": 19,
+        "place": 6,
+        "level": 814,
+        "name": "Dangins89"
+      },
+      {
+        "id": "J4KQ8F0PXRS8KBGM1P",
+        "rank": 20,
+        "place": 3,
+        "level": 764,
+        "name": "owo"
+      },
+      {
+        "id": "2JQX8XMAZKERD8AWKK",
+        "rank": 21,
+        "place": 7,
+        "level": 762,
+        "name": "blibla"
+      },
+      {
+        "id": "29XGE9MVNFBFX3MMAK",
+        "rank": 22,
+        "place": 8,
+        "level": 742,
+        "name": "Akuma no Tsubasa"
+      },
+      {
+        "id": "DV2G3XWRXVQFX98RYN",
+        "rank": 23,
+        "place": 9,
+        "level": 730,
+        "name": "Furryka"
+      },
+      {
+        "id": "D77JYHSXAYQYV6AH7S",
+        "rank": 24,
+        "place": 10,
+        "level": 728,
+        "name": "Flerp Derp"
+      },
+      {
+        "id": "FPD4E8HCATG0TD4NQ1",
+        "rank": 25,
+        "place": 12,
+        "level": 692,
+        "name": "devi"
+      },
+      {
+        "id": "CHG6V0JF08K45MDRKY",
+        "rank": 26,
+        "place": 11,
+        "level": 682,
+        "name": "Onyx"
+      },
+      {
+        "id": "5SV0A16D56DR3R1FHQ",
+        "rank": 27,
+        "place": 4,
+        "level": 661,
+        "name": "Micha 永禪"
+      },
+      {
+        "id": "VRWNN79NCSVRCK5SMZ",
+        "rank": 28,
+        "place": 5,
+        "level": 655,
+        "name": "HermesT"
+      },
+      {
+        "id": "5WK5P26C5RSPSNPHFA",
+        "rank": 29,
+        "place": 12,
+        "level": 645,
+        "name": "Seramiaw"
+      },
+      {
+        "id": "E7GFV1PMHYSWQ7VM53",
+        "rank": 30,
+        "place": 13,
+        "level": 581,
+        "name": "Einar"
+      },
+      {
+        "id": "97502QAS3HQ1VQGDMD",
+        "rank": 31,
+        "place": 14,
+        "level": 567,
+        "name": "Distant"
+      },
+      {
+        "id": "ZHY6D3AEDFKHB11EA4",
+        "rank": 32,
+        "place": 15,
+        "level": 556,
+        "name": "Kaelyssa"
+      },
+      {
+        "id": "JTBB4GJ7KKDJ3GFJC7",
+        "rank": 33,
+        "place": 6,
+        "level": 520,
+        "name": "0"
+      },
+      {
+        "id": "0FESE3GQZA9R1XBKW2",
+        "rank": 34,
+        "place": 13,
+        "level": 516,
+        "name": "EFO"
+      },
+      {
+        "id": "TPY61R01HT8YV84NDN",
+        "rank": 35,
+        "place": 7,
+        "level": 384,
+        "name": "ninjatank707"
+      }
+    ],
+    "2023-07-05": [
+      {
+        "id": "2R59BQ1X2EP8Z59FD2",
+        "rank": 1,
+        "place": 1,
+        "level": 2581,
+        "name": "Daox"
+      },
+      {
+        "id": "RF7J6MY2Z0398MCH60",
+        "rank": 2,
+        "place": 2,
+        "level": 2528,
+        "name": "The One Mark"
+      },
+      {
+        "id": "MK3G4FE6CHX5EMPG2G",
+        "rank": 3,
+        "place": 3,
+        "level": 2143,
+        "name": "Meep"
+      },
+      {
+        "id": "GEW7Q0AX53FAGJV2BD",
+        "rank": 4,
+        "place": 1,
+        "level": 1834,
+        "name": "Blaze"
+      },
+      {
+        "id": "5TEQ1ZSC6J5XWKCMZE",
+        "rank": 5,
+        "place": 4,
+        "level": 1817,
+        "name": "Jimmybald"
+      },
+      {
+        "id": "F2VTKYXXT3ZQAAV12B",
+        "rank": 6,
+        "place": 1,
+        "level": 1812,
+        "name": "Deceet"
+      },
+      {
+        "id": "E6WR46H97W2E2AT9H2",
+        "rank": 7,
+        "place": 5,
+        "level": 1323,
+        "name": "firdude"
+      },
+      {
+        "id": "1DFJDMFABHABCM4YR5",
+        "rank": 8,
+        "place": 2,
+        "level": 1168,
+        "name": "Freekill"
+      },
+      {
+        "id": "X7BJNJJA668V2KF5KW",
+        "rank": 9,
+        "place": 6,
+        "level": 1117,
+        "name": "Blaypeg"
+      },
+      {
+        "id": "HXACDTE2NF4VXEGDYW",
+        "rank": 10,
+        "place": 2,
+        "level": 1116,
+        "name": "Whoaness"
+      },
+      {
+        "id": "PACG33BGRJ4KNRAKQQ",
+        "rank": 11,
+        "place": 3,
+        "level": 1085,
+        "name": "kell74"
+      },
+      {
+        "id": "4D7B4REST4PD7A2NJD",
+        "rank": 12,
+        "place": 3,
+        "level": 1014,
+        "name": "Jimmy \"Rust\" Old"
+      },
+      {
+        "id": "98CT79F41Y6W8EVZNP",
+        "rank": 13,
+        "place": 7,
+        "level": 957,
+        "name": "Mikaplays"
+      },
+      {
+        "id": "EH8VZKK91GF1SG4NH8",
+        "rank": 14,
+        "place": 8,
+        "level": 920,
+        "name": "Olaf de Viesel"
+      },
+      {
+        "id": "4MPGW8J55KDNRE4NB3",
+        "rank": 15,
+        "place": 4,
+        "level": 888,
+        "name": "Neph"
+      },
+      {
+        "id": "K1K6EVEGYXS9RZFDHR",
+        "rank": 16,
+        "place": 5,
+        "level": 846,
+        "name": "Sakaryn"
+      },
+      {
+        "id": "29XGE9MVNFBFX3MMAK",
+        "rank": 17,
+        "place": 6,
+        "level": 820,
+        "name": "Akuma no Tsubasa"
+      },
+      {
+        "id": "D77JYHSXAYQYV6AH7S",
+        "rank": 18,
+        "place": 4,
+        "level": 807,
+        "name": "Flerp Derp"
+      },
+      {
+        "id": "DV2G3XWRXVQFX98RYN",
+        "rank": 19,
+        "place": 9,
+        "level": 799,
+        "name": "Furryka"
+      },
+      {
+        "id": "97502QAS3HQ1VQGDMD",
+        "rank": 20,
+        "place": 5,
+        "level": 766,
+        "name": "Distant"
+      },
+      {
+        "id": "2JQX8XMAZKERD8AWKK",
+        "rank": 21,
+        "place": 7,
+        "level": 754,
+        "name": "blibla"
+      },
+      {
+        "id": "YHD8AF9GRGS3Z8E5GT",
+        "rank": 22,
+        "place": 6,
+        "level": 732,
+        "name": "NotInterested"
+      },
+      {
+        "id": "X8D9T34QDF6J6ZAFWZ",
+        "rank": 23,
+        "place": 8,
+        "level": 707,
+        "name": "Dangins89"
+      },
+      {
+        "id": "FPD4E8HCATG0TD4NQ1",
+        "rank": 24,
+        "place": 10,
+        "level": 702,
+        "name": "devi"
+      },
+      {
+        "id": "MMBFV9SDEGQDF8WWV6",
+        "rank": 25,
+        "place": 11,
+        "level": 699,
+        "name": "jorte"
+      },
+      {
+        "id": "G3WSQF4DWR9REAQT0Z",
+        "rank": 25,
+        "place": 11,
+        "level": 699,
+        "name": "Sharkman768"
+      },
+      {
+        "id": "J4KQ8F0PXRS8KBGM1P",
+        "rank": 27,
+        "place": 13,
+        "level": 675,
+        "name": "owo"
+      },
+      {
+        "id": "VRWNN79NCSVRCK5SMZ",
+        "rank": 28,
+        "place": 14,
+        "level": 652,
+        "name": "HermesT"
+      },
+      {
+        "id": "5SV0A16D56DR3R1FHQ",
+        "rank": 29,
+        "place": 7,
+        "level": 578,
+        "name": "Micha 永禪"
+      },
+      {
+        "id": "WWNNKAQKE8NVP1H3G5",
+        "rank": 30,
+        "place": 8,
+        "level": 564,
+        "name": "Druec"
+      },
+      {
+        "id": "16NH66G2MHQENP83W3",
+        "rank": 31,
+        "place": 15,
+        "level": 528,
+        "name": "Deus Mors"
+      },
+      {
+        "id": "0FESE3GQZA9R1XBKW2",
+        "rank": 32,
+        "place": 9,
+        "level": 468,
+        "name": "EFO"
+      },
+      {
+        "id": "FJAPSY64AZKDRSRFQ3",
+        "rank": 33,
+        "place": 10,
+        "level": 445,
+        "name": "opc_glatteis"
+      }
+    ],
+    "2023-07-02": [
+      {
+        "id": "2R59BQ1X2EP8Z59FD2",
+        "rank": 1,
+        "place": 1,
+        "level": 2492,
+        "name": "Daox"
+      },
+      {
+        "id": "MK3G4FE6CHX5EMPG2G",
+        "rank": 2,
+        "place": 1,
+        "level": 2198,
+        "name": "Meep"
+      },
+      {
+        "id": "RF7J6MY2Z0398MCH60",
+        "rank": 3,
+        "place": 1,
+        "level": 2159,
+        "name": "The One Mark"
+      },
+      {
+        "id": "5TEQ1ZSC6J5XWKCMZE",
+        "rank": 4,
+        "place": 2,
+        "level": 1865,
+        "name": "Jimmybald"
+      },
+      {
+        "id": "GEW7Q0AX53FAGJV2BD",
+        "rank": 5,
+        "place": 2,
+        "level": 1748,
+        "name": "Blaze"
+      },
+      {
+        "id": "DYWFC36G517HMA7TG1",
+        "rank": 6,
+        "place": 2,
+        "level": 1531,
+        "name": "Riggenstimple"
+      },
+      {
+        "id": "X7BJNJJA668V2KF5KW",
+        "rank": 7,
+        "place": 3,
+        "level": 1526,
+        "name": "Blaypeg"
+      },
+      {
+        "id": "F2VTKYXXT3ZQAAV12B",
+        "rank": 8,
+        "place": 4,
+        "level": 1421,
+        "name": "Deceet"
+      },
+      {
+        "id": "HXACDTE2NF4VXEGDYW",
+        "rank": 9,
+        "place": 3,
+        "level": 1293,
+        "name": "Whoaness"
+      },
+      {
+        "id": "NSWBFRGHXV6ZFZF2JR",
+        "rank": 10,
+        "place": 3,
+        "level": 1113,
+        "name": "ReverseNeutral"
+      },
+      {
+        "id": "1DFJDMFABHABCM4YR5",
+        "rank": 11,
+        "place": 5,
+        "level": 1102,
+        "name": "Freekill"
+      },
+      {
+        "id": "P0WETZ0RPTND9VG243",
+        "rank": 12,
+        "place": 4,
+        "level": 1095,
+        "name": "Dzaga"
+      },
+      {
+        "id": "PACG33BGRJ4KNRAKQQ",
+        "rank": 13,
+        "place": 6,
+        "level": 1093,
+        "name": "kell74"
+      },
+      {
+        "id": "98CT79F41Y6W8EVZNP",
+        "rank": 14,
+        "place": 5,
+        "level": 1009,
+        "name": "Mikaplays"
+      },
+      {
+        "id": "TPY61R01HT8YV84NDN",
+        "rank": 15,
+        "place": 7,
+        "level": 990,
+        "name": "ninjatank707"
+      },
+      {
+        "id": "4D7B4REST4PD7A2NJD",
+        "rank": 16,
+        "place": 6,
+        "level": 986,
+        "name": "Jimmy \"Rust\" Old"
+      },
+      {
+        "id": "4MPGW8J55KDNRE4NB3",
+        "rank": 17,
+        "place": 8,
+        "level": 925,
+        "name": "Neph"
+      },
+      {
+        "id": "E6WR46H97W2E2AT9H2",
+        "rank": 18,
+        "place": 7,
+        "level": 924,
+        "name": "firdude"
+      },
+      {
+        "id": "RJJMFQMM64EX5FWBWN",
+        "rank": 19,
+        "place": 9,
+        "level": 904,
+        "name": "Terra"
+      },
+      {
+        "id": "DV2G3XWRXVQFX98RYN",
+        "rank": 20,
+        "place": 4,
+        "level": 896,
+        "name": "Furryka"
+      },
+      {
+        "id": "EH8VZKK91GF1SG4NH8",
+        "rank": 21,
+        "place": 8,
+        "level": 882,
+        "name": "Olaf de Viesel"
+      },
+      {
+        "id": "D77JYHSXAYQYV6AH7S",
+        "rank": 22,
+        "place": 9,
+        "level": 838,
+        "name": "Flerp Derp"
+      },
+      {
+        "id": "K1K6EVEGYXS9RZFDHR",
+        "rank": 23,
+        "place": 5,
+        "level": 820,
+        "name": "Sakaryn"
+      },
+      {
+        "id": "YHD8AF9GRGS3Z8E5GT",
+        "rank": 24,
+        "place": 10,
+        "level": 801,
+        "name": "NotInterested"
+      },
+      {
+        "id": "2JQX8XMAZKERD8AWKK",
+        "rank": 25,
+        "place": 6,
+        "level": 768,
+        "name": "blibla"
+      },
+      {
+        "id": "16NH66G2MHQENP83W3",
+        "rank": 26,
+        "place": 7,
+        "level": 751,
+        "name": "Deus Mors"
+      },
+      {
+        "id": "29XGE9MVNFBFX3MMAK",
+        "rank": 27,
+        "place": 8,
+        "level": 722,
+        "name": "Akuma no Tsubasa"
+      },
+      {
+        "id": "J4KQ8F0PXRS8KBGM1P",
+        "rank": 28,
+        "place": 10,
+        "level": 706,
+        "name": "owo"
+      },
+      {
+        "id": "FPD4E8HCATG0TD4NQ1",
+        "rank": 29,
+        "place": 11,
+        "level": 600,
+        "name": "devi"
+      },
+      {
+        "id": "VRWNN79NCSVRCK5SMZ",
+        "rank": 30,
+        "place": 9,
+        "level": 579,
+        "name": "HermesT"
+      },
+      {
+        "id": "YPG6JYGGZEJJH9AJPM",
+        "rank": 31,
+        "place": 11,
+        "level": 518,
+        "name": "Jondean"
+      },
+      {
+        "id": "TG4JBY4JWT0JQMYJZN",
+        "rank": 32,
+        "place": 12,
+        "level": 483,
+        "name": "Pönttö"
+      },
+      {
+        "id": "0FESE3GQZA9R1XBKW2",
+        "rank": 33,
+        "place": 10,
+        "level": 472,
+        "name": "EFO"
+      },
+      {
+        "id": "FB8HT42BJ0R2D4ZN1H",
+        "rank": 34,
+        "place": 11,
+        "level": 441,
+        "name": "Doctor MOM"
+      }
+    ],
+    "2023-06-28": [
+      {
+        "id": "2R59BQ1X2EP8Z59FD2",
+        "rank": 1,
+        "place": 1,
+        "level": 2762,
+        "name": "Daox"
+      },
+      {
+        "id": "MK3G4FE6CHX5EMPG2G",
+        "rank": 2,
+        "place": 2,
+        "level": 2153,
+        "name": "Meep"
+      },
+      {
+        "id": "5TEQ1ZSC6J5XWKCMZE",
+        "rank": 3,
+        "place": 3,
+        "level": 2121,
+        "name": "Jimmybald"
+      },
+      {
+        "id": "RF7J6MY2Z0398MCH60",
+        "rank": 4,
+        "place": 4,
+        "level": 2117,
+        "name": "The One Mark"
+      },
+      {
+        "id": "GEW7Q0AX53FAGJV2BD",
+        "rank": 5,
+        "place": 1,
+        "level": 1742,
+        "name": "Blaze"
+      },
+      {
+        "id": "Y8NDYRKED4D9408XZP",
+        "rank": 6,
+        "place": 1,
+        "level": 1722,
+        "name": "ForFun"
+      },
+      {
+        "id": "F2VTKYXXT3ZQAAV12B",
+        "rank": 7,
+        "place": 2,
+        "level": 1604,
+        "name": "Deceet"
+      },
+      {
+        "id": "DYWFC36G517HMA7TG1",
+        "rank": 8,
+        "place": 3,
+        "level": 1544,
+        "name": "Riggenstimple"
+      },
+      {
+        "id": "X7BJNJJA668V2KF5KW",
+        "rank": 9,
+        "place": 2,
+        "level": 1507,
+        "name": "Blaypeg"
+      },
+      {
+        "id": "E6WR46H97W2E2AT9H2",
+        "rank": 10,
+        "place": 3,
+        "level": 1480,
+        "name": "firdude"
+      },
+      {
+        "id": "Q9HNKM8PA67C7TAR90",
+        "rank": 11,
+        "place": 4,
+        "level": 1200,
+        "name": "Kyle Smith"
+      },
+      {
+        "id": "HXACDTE2NF4VXEGDYW",
+        "rank": 12,
+        "place": 4,
+        "level": 1184,
+        "name": "Whoaness"
+      },
+      {
+        "id": "MXWDCNZC5ZDAVG067E",
+        "rank": 13,
+        "place": 5,
+        "level": 1177,
+        "name": "Recna"
+      },
+      {
+        "id": "4D7B4REST4PD7A2NJD",
+        "rank": 14,
+        "place": 5,
+        "level": 1111,
+        "name": "Jimmy \"Rust\" Old"
+      },
+      {
+        "id": "PACG33BGRJ4KNRAKQQ",
+        "rank": 15,
+        "place": 6,
+        "level": 1093,
+        "name": "kell74"
+      },
+      {
+        "id": "1DFJDMFABHABCM4YR5",
+        "rank": 16,
+        "place": 5,
+        "level": 1066,
+        "name": "Freekill"
+      },
+      {
+        "id": "4MPGW8J55KDNRE4NB3",
+        "rank": 17,
+        "place": 7,
+        "level": 977,
+        "name": "Neph"
+      },
+      {
+        "id": "P0WETZ0RPTND9VG243",
+        "rank": 18,
+        "place": 6,
+        "level": 973,
+        "name": "Dzaga"
+      },
+      {
+        "id": "98CT79F41Y6W8EVZNP",
+        "rank": 19,
+        "place": 8,
+        "level": 939,
+        "name": "Mikaplays"
+      },
+      {
+        "id": "NSWBFRGHXV6ZFZF2JR",
+        "rank": 20,
+        "place": 9,
+        "level": 920,
+        "name": "ReverseNeutral"
+      },
+      {
+        "id": "RJJMFQMM64EX5FWBWN",
+        "rank": 21,
+        "place": 6,
+        "level": 883,
+        "name": "Terra"
+      },
+      {
+        "id": "D77JYHSXAYQYV6AH7S",
+        "rank": 22,
+        "place": 7,
+        "level": 817,
+        "name": "Flerp Derp"
+      },
+      {
+        "id": "YEJA8B0J5MWYH96E1H",
+        "rank": 23,
+        "place": 10,
+        "level": 801,
+        "name": "Kaari_Gi"
+      },
+      {
+        "id": "MMBFV9SDEGQDF8WWV6",
+        "rank": 24,
+        "place": 11,
+        "level": 782,
+        "name": "jorte"
+      },
+      {
+        "id": "VRWNN79NCSVRCK5SMZ",
+        "rank": 25,
+        "place": 12,
+        "level": 780,
+        "name": "HermesT"
+      },
+      {
+        "id": "2JQX8XMAZKERD8AWKK",
+        "rank": 26,
+        "place": 8,
+        "level": 765,
+        "name": "blibla"
+      },
+      {
+        "id": "EH8VZKK91GF1SG4NH8",
+        "rank": 27,
+        "place": 13,
+        "level": 764,
+        "name": "Olaf de Viesel"
+      },
+      {
+        "id": "29XGE9MVNFBFX3MMAK",
+        "rank": 28,
+        "place": 9,
+        "level": 758,
+        "name": "Akuma no Tsubasa"
+      },
+      {
+        "id": "YHD8AF9GRGS3Z8E5GT",
+        "rank": 29,
+        "place": 10,
+        "level": 749,
+        "name": "NotInterested"
+      },
+      {
+        "id": "DV2G3XWRXVQFX98RYN",
+        "rank": 30,
+        "place": 11,
+        "level": 745,
+        "name": "Furryka"
+      },
+      {
+        "id": "J4KQ8F0PXRS8KBGM1P",
+        "rank": 31,
+        "place": 7,
+        "level": 737,
+        "name": "owo"
+      },
+      {
+        "id": "TPY61R01HT8YV84NDN",
+        "rank": 32,
+        "place": 8,
+        "level": 728,
+        "name": "ninjatank707"
+      },
+      {
+        "id": "16NH66G2MHQENP83W3",
+        "rank": 33,
+        "place": 12,
+        "level": 683,
+        "name": "Deus Mors"
+      },
+      {
+        "id": "FPD4E8HCATG0TD4NQ1",
+        "rank": 34,
+        "place": 13,
+        "level": 660,
+        "name": "devi"
+      },
+      {
+        "id": "JTBB4GJ7KKDJ3GFJC7",
+        "rank": 35,
+        "place": 14,
+        "level": 493,
+        "name": "0"
+      },
+      {
+        "id": "JT4ACH11A3NG7EGW7R",
+        "rank": 36,
+        "place": 14,
+        "level": 475,
+        "name": "Higanbana"
+      },
+      {
+        "id": "0FESE3GQZA9R1XBKW2",
+        "rank": 37,
+        "place": 9,
+        "level": 457,
+        "name": "EFO"
+      }
+    ],
     "2023-06-25": [
       {
         "id": "2R59BQ1X2EP8Z59FD2",
