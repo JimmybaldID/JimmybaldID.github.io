@@ -7,7 +7,8 @@ function GetRookieData() {
    "place": 1,
    "level": 0,
    "name": "[cheater]",
-   "truelevel": 104572
+   "truelevel": 104572,
+   "truename": "iammohj"
  },
  {
    "id": "XKB7K6T79RPQM766NZ",
