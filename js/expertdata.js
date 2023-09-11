@@ -1,5 +1,252 @@
 function GetExpertData() {
   return {
+    "2023-09-10": [
+ {
+   "id": "2R59BQ1X2EP8Z59FD2",
+   "rank": 1,
+   "place": 1,
+   "level": 2616,
+   "name": "Daox"
+ },
+ {
+   "id": "RF7J6MY2Z0398MCH60",
+   "rank": 2,
+   "place": 1,
+   "level": 2277,
+   "name": "The One Mark"
+ },
+ {
+   "id": "5TEQ1ZSC6J5XWKCMZE",
+   "rank": 3,
+   "place": 2,
+   "level": 1941,
+   "name": "Jimmybald"
+ },
+ {
+   "id": "DYWFC36G517HMA7TG1",
+   "rank": 4,
+   "place": 2,
+   "level": 1924,
+   "name": "Riggenstimple"
+ },
+ {
+   "id": "X7BJNJJA668V2KF5KW",
+   "rank": 5,
+   "place": 3,
+   "level": 1631,
+   "name": "Blaypeg"
+ },
+ {
+   "id": "F2VTKYXXT3ZQAAV12B",
+   "rank": 6,
+   "place": 1,
+   "level": 1450,
+   "name": "Deceet"
+ },
+ {
+   "id": "TPY61R01HT8YV84NDN",
+   "rank": 7,
+   "place": 3,
+   "level": 1314,
+   "name": "ninjatank707"
+ },
+ {
+   "id": "98CT79F41Y6W8EVZNP",
+   "rank": 8,
+   "place": 2,
+   "level": 1302,
+   "name": "Mikaplays"
+ },
+ {
+   "id": "1DFJDMFABHABCM4YR5",
+   "rank": 9,
+   "place": 4,
+   "level": 1253,
+   "name": "Freekill"
+ },
+ {
+   "id": "K1K6EVEGYXS9RZFDHR",
+   "rank": 10,
+   "place": 4,
+   "level": 1242,
+   "name": "Sakaryn"
+ },
+ {
+   "id": "NSWBFRGHXV6ZFZF2JR",
+   "rank": 11,
+   "place": 5,
+   "level": 1217,
+   "name": "ReverseNeutral"
+ },
+ {
+   "id": "PACG33BGRJ4KNRAKQQ",
+   "rank": 12,
+   "place": 3,
+   "level": 1155,
+   "name": "kell74"
+ },
+ {
+   "id": "4D7B4REST4PD7A2NJD",
+   "rank": 13,
+   "place": 4,
+   "level": 1141,
+   "name": "Jimmy \"Rust\" Old"
+ },
+ {
+   "id": "43RRE9D216DVM368F9",
+   "rank": 14,
+   "place": 6,
+   "level": 1077,
+   "name": "Kokushibo"
+ },
+ {
+   "id": "16NH66G2MHQENP83W3",
+   "rank": 15,
+   "place": 5,
+   "level": 981,
+   "name": "Deus Mors"
+ },
+ {
+   "id": "2JQX8XMAZKERD8AWKK",
+   "rank": 16,
+   "place": 5,
+   "level": 946,
+   "name": "blibla"
+ },
+ {
+   "id": "EH8VZKK91GF1SG4NH8",
+   "rank": 17,
+   "place": 6,
+   "level": 898,
+   "name": "Olaf de Viesel"
+ },
+ {
+   "id": "FPD4E8HCATG0TD4NQ1",
+   "rank": 18,
+   "place": 7,
+   "level": 884,
+   "name": "devi"
+ },
+ {
+   "id": "J4KQ8F0PXRS8KBGM1P",
+   "rank": 19,
+   "place": 8,
+   "level": 870,
+   "name": "owo"
+ },
+ {
+   "id": "X8D9T34QDF6J6ZAFWZ",
+   "rank": 19,
+   "place": 7,
+   "level": 870,
+   "name": "Dangins89"
+ },
+ {
+   "id": "5WK5P26C5RSPSNPHFA",
+   "rank": 21,
+   "place": 9,
+   "level": 857,
+   "name": "Seramiaw"
+ },
+ {
+   "id": "FCHJ99HCGTQPTFNP7R",
+   "rank": 22,
+   "place": 10,
+   "level": 788,
+   "name": "NegaKira"
+ },
+ {
+   "id": "MREQ2VJ1NZ529WM6BJ",
+   "rank": 23,
+   "place": 8,
+   "level": 752,
+   "name": "freegems"
+ },
+ {
+   "id": "VRWNN79NCSVRCK5SMZ",
+   "rank": 24,
+   "place": 9,
+   "level": 749,
+   "name": "HermesT"
+ },
+ {
+   "id": "ZHY6D3AEDFKHB11EA4",
+   "rank": 25,
+   "place": 6,
+   "level": 746,
+   "name": "Kaelyssa"
+ },
+ {
+   "id": "JTBB4GJ7KKDJ3GFJC7",
+   "rank": 26,
+   "place": 11,
+   "level": 744,
+   "name": "0"
+ },
+ {
+   "id": "0FESE3GQZA9R1XBKW2",
+   "rank": 27,
+   "place": 10,
+   "level": 711,
+   "name": "EFO"
+ },
+ {
+   "id": "FJAPSY64AZKDRSRFQ3",
+   "rank": 28,
+   "place": 11,
+   "level": 703,
+   "name": "opc_glatteis"
+ },
+ {
+   "id": "Q1YNGTNT513N5DE1D8",
+   "rank": 29,
+   "place": 7,
+   "level": 660,
+   "name": "NukRaider"
+ },
+ {
+   "id": "9RDTM6GHR7SVPC2MPY",
+   "rank": 30,
+   "place": 8,
+   "level": 610,
+   "name": "Larkas"
+ },
+ {
+   "id": "AAKX7M79AXMBSB1G02",
+   "rank": 31,
+   "place": 12,
+   "level": 598,
+   "name": "thymaestro"
+ },
+ {
+   "id": "ZXC3DJHR0N7DE439FY",
+   "rank": 32,
+   "place": 12,
+   "level": 540,
+   "name": "Jaremczi"
+ },
+ {
+   "id": "AS3MYN3FTJ3P8WK784",
+   "rank": 33,
+   "place": 13,
+   "level": 487,
+   "name": "qoo"
+ },
+ {
+   "id": "N93SXRJQF4D8K1DEH9",
+   "rank": 34,
+   "place": 14,
+   "level": 455,
+   "name": "racism, vulgarity (ect)"
+ },
+ {
+   "id": "N93SXRJQF4D8K1DEH9",
+   "rank": 35,
+   "place": 13,
+   "level": 0,
+   "name": "racism, vulgarity (ect)"
+ }
+],
     "2023-09-06": [
  {
    "id": "2R59BQ1X2EP8Z59FD2",
